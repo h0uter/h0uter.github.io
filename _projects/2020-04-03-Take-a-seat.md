@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Take a Seat'
+title: Take a Seat
 description: office sharing for businesses
 # categories:
 #   - projects
