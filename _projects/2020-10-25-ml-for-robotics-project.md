@@ -7,7 +7,7 @@ tags:
   - Machine Learning
   - Uni Project
   - Python
-img: /assets/img/ml_knife_wide.jpg
+img: /assets/img/ml_knife.png
 # image:
 #   path: /assets/img/ml_knife_wide.jpg
 #   thumbnail: /assets/img/ml_knife.png
