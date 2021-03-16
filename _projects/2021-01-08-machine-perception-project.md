@@ -8,8 +8,8 @@ tags:
   - LiDAR
   - Python
 image: 
-  path: /assets/images/MP_grid_vid.gif
-  thumbnail: /assets/images/MP_grid_vid.gif
+  path: /assets/img/MP_grid_vid.gif
+  thumbnail: /assets/img/MP_grid_vid.gif
   caption: "test"
 ---
 
