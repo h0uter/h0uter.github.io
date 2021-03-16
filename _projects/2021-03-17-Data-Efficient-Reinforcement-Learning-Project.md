@@ -1,5 +1,6 @@
 ---
-title: 'WIP: Data Efficient Reinforcement Learning'
+title: 'WIP: PILCO reproduction'
+description: Data Efficient Reinforcement Learning
 # categories:
 #   - projects
 # tags:
