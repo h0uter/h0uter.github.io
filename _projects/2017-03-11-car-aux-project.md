@@ -6,8 +6,8 @@ title: 'Upgrading Car Radio with AUX'
 # tags:
 #   - Electronics
 image: 
-  path: /assets/images/car-aux-pcb.jpg
-  thumbnail: /assets/images/car-aux-pcb_thumb.jpg
+  path: /assets/img/car-aux-pcb.jpg
+  thumbnail: /assets/img/car-aux-pcb_thumb.jpg
   caption: "test"
 # actions:
 #   - label: "Download the car radio manual"

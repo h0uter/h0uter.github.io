@@ -7,8 +7,8 @@ tags:
   - Uni Project
   - Python
 image:
-  path: /assets/images/ml_knife_wide.jpg
-  thumbnail: /assets/images/ml_knife.png
+  path: /assets/img/ml_knife_wide.jpg
+  thumbnail: /assets/img/ml_knife.png
   caption: "wtf"
 actions:
   - label: "Published Notebook"

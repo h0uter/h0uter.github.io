@@ -10,8 +10,8 @@ tags:
   - Deep Learning
   - Uni Project
 image: 
-  path: /assets/images/MLDG_wide.jpg
-  thumbnail: /assets/images/MLDG.png
+  path: /assets/img/MLDG_wide.jpg
+  thumbnail: /assets/img/MLDG.png
   caption: "test"
 actions:
   - label: "Our reproduction"

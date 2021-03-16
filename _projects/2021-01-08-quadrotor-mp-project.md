@@ -7,8 +7,8 @@ tags:
   - Uni Project
   - Python
 image: 
-  path: /assets/images/PDM_preview.gif
-  thumbnail: /assets/images/PDM_preview.gif
+  path: /assets/img/PDM_preview.gif
+  thumbnail: /assets/img/PDM_preview.gif
   caption: "test"
 actions:
   - label: "Our paper"
