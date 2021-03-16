@@ -7,7 +7,7 @@ description: Spotify take the wheel
 #   - projects
 # tags:
 #   - Electronics
-img: /assets/2017-03-11-car-aux-projec/car-aux-pcb_thumb.jpg
+img: /assets/2017-03-11-car-aux-project/car-aux-pcb_thumb.jpg
 
 # actions:
 #   - label: "Download the car radio manual"
