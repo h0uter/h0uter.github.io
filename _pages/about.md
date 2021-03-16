@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-    <a href="https://www.tudelft.nl/3me/over/afdelingen/cognitive-robotics-cor">MSc. Student Cognitive Robotics</a>. 
+    MSc. Student <a href="https://www.tudelft.nl/3me/over/afdelingen/cognitive-robotics-cor">Cognitive Robotics</a>. 
     # Let's give people more freedom with robotics!
 
 profile:
@@ -22,7 +22,7 @@ Hi👋, my name is Wouter.
 
 Welcome to my WIP portfolio site!
 
-
 I hold a bachelor's degree in Mechanical Engineering from Delft University of Technology and am currently finishing my master's degree in Cognitive Robotics.
 
 My academic interests relate to the learning, reasoning and strategizing aspects of artificial agents.
+
