@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Upgrading Car Radio with AUX'
-description: Pumping our own jams since 2017
+description: Spotify take the wheel
 
 # categories:
 #   - projects
