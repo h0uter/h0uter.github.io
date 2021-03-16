@@ -1,5 +1,5 @@
 ---
-title: 'Machine Learning for Robot Gripper'
+title: 'ML pipeline for Robot Gripper'
 description: Using fiver to avoid boring labeling tasks.
 # categories:
 #   - projects
