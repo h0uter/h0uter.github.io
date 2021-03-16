@@ -12,7 +12,7 @@ img: /assets/img/2020-04-03-Take-a-seat/take-a-seat.png
 #   - label: "Visit Take a Seat website"
 #     icon: arrow-right  # references name of svg icon, see full list below
 #     url: "https://takeaseat.luppessoftware.nl/"
-github: https://github.com/h0uter/PDM-project
+# github: https://github.com/h0uter/PDM-project
 
 importance: 4
 ---
