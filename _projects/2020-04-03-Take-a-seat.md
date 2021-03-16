@@ -7,7 +7,7 @@ description: office sharing for businesses
 # tags:
 #   - Entrepeneurship
 #   - Uni Project
-img: /assets/img/2020-04-03-Take-a-seat/take-a-seat.png
+img: /assets/2020-04-03-Take-a-seat/take-a-seat.png
 # actions:
 #   - label: "Visit Take a Seat website"
 #     icon: arrow-right  # references name of svg icon, see full list below
