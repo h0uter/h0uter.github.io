@@ -1,11 +1,11 @@
 ---
 title: 'Quadrotor Motion Planning'
-categories:
-  - projects
-tags:
-  - Motion Planning
-  - Uni Project
-  - Python
+# categories:
+#   - projects
+# tags:
+#   - Motion Planning
+#   - Uni Project
+#   - Python
 img: /assets/img/PDM_preview.gif
 # image: 
 #   path: /assets/img/PDM_preview.gif

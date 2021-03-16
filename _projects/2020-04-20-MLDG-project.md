@@ -1,13 +1,13 @@
 ---
 title: 'Meta Learning for Domain Generalisation'
 description: learn photos, classify drawings
-categories:
-  - projects
-tags:
-  - Machine Learning
-  - Deep Learning
-  - Uni Project
-img: /assets/img/MLDG.png
+# categories:
+#   - projects
+# tags:
+#   - Machine Learning
+#   - Deep Learning
+#   - Uni Project
+# img: /assets/img/MLDG.png
 # image: 
 #   path: /assets/img/MLDG_wide.jpg
 #   thumbnail: /assets/img/MLDG.png

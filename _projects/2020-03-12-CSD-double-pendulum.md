@@ -1,11 +1,11 @@
 ---
 title: 'Controller Design for Double Pendulum'
 description: LQR is just fancy pole placement
-categories:
-  - projects
-tags:
-  - Control Engineering
-  - Uni Project
+# categories:
+#   - projects
+# tags:
+#   - Control Engineering
+#   - Uni Project
 # image:
 #   path: /assets/images/2020-03-12-CSD-double-pendulum/
 #   thumbnail: /assets/images/2020-03-12-CSD-double-pendulum

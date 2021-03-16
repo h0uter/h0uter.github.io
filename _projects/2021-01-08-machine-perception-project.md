@@ -1,12 +1,12 @@
 ---
 title: '3D Sensor Data Fusion'
-categories:
-  - projects
-tags:
-  - Sensor Fusion
-  - Uni Project
-  - LiDAR
-  - Python
+# categories:
+#   - projects
+# tags:
+#   - Sensor Fusion
+#   - Uni Project
+#   - LiDAR
+#   - Python
 img: /assets/img/MP_grid_vid.gif
 # image: 
 #   path: /assets/img/MP_grid_vid.gif
