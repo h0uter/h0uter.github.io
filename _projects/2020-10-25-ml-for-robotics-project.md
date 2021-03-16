@@ -1,12 +1,12 @@
 ---
 title: 'Machine Learning for Robot Gripper'
 description: Using fiver to avoid boring labeling tasks.
-categories:
-  - projects
-tags:
-  - Machine Learning
-  - Uni Project
-  - Python
+# categories:
+#   - projects
+# tags:
+#   - Machine Learning
+#   - Uni Project
+#   - Python
 img: /assets/img/ml_knife.png
 # image:
 #   path: /assets/img/ml_knife_wide.jpg
