@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://www.tudelft.nl/3me/over/afdelingen/cognitive-robotics-cor">MSc. Student Cognitive Robotics</a>. Let's give people more freedom with robotics!
+subtitle: >
+    <a href="https://www.tudelft.nl/3me/over/afdelingen/cognitive-robotics-cor">MSc. Student Cognitive Robotics</a>. Let's give people more freedom with robotics!
 
 profile:
   align: right
