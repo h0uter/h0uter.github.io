@@ -1,14 +1,14 @@
 ---
 layout: page
 title: 'Upgrading Car Radio with AUX'
+description: Pumping our own jams since 2017
+
 # categories:
 #   - projects
 # tags:
 #   - Electronics
-image: 
-  path: /assets/img/car-aux-pcb.jpg
-  thumbnail: /assets/img/car-aux-pcb_thumb.jpg
-  caption: "test"
+img: /assets/img/car-aux-pcb_thumb.jpg
+
 # actions:
 #   - label: "Download the car radio manual"
 #     icon: pdf # references name of svg icon, see full list below

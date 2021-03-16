@@ -7,10 +7,7 @@ tags:
   - AI gym
   - Python
   - Gaussian Processes
-image: 
-  path: /assets/img/2021-03-17-Data-Efficient-Reinforcement-Learning-Project/PILCO-linux.jpg
-  thumbnail: /assets/img/2021-03-17-Data-Efficient-Reinforcement-Learning-Project/PILCO-linux.jpg
-  caption: "test"
+img: /assets/2021-03-17-Data-Efficient-Reinforcement-Learning-Project/PILCO-linux.jpg
 ---
  
 Currently working on reproducting the PILCO algorithm for reinforcement learning and making a robustness analysis.
