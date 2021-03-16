@@ -7,7 +7,7 @@ tags:
   - Machine Learning
   - Deep Learning
   - Uni Project
-img: /assets/img/MLDG.jpg
+img: /assets/img/MLDG.png
 # image: 
 #   path: /assets/img/MLDG_wide.jpg
 #   thumbnail: /assets/img/MLDG.png
