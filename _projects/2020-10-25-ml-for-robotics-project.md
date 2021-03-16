@@ -1,5 +1,6 @@
 ---
 title: 'Machine Learning for Robot Gripper'
+description: Jezus grab the knife
 categories:
   - projects
 tags:

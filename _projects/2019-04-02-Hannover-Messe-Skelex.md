@@ -1,5 +1,7 @@
 ---
 title: 'Skelex at the Hannover-Messe'
+description: Exo's for days
+
 # categories:
 #   # - projects
 # tags:

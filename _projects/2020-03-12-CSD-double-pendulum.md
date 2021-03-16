@@ -1,5 +1,6 @@
 ---
 title: 'Controller Design for Double Pendulum'
+description: LQR is just fancy pole placement
 categories:
   - projects
 tags:
