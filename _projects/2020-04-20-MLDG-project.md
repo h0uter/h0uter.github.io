@@ -1,6 +1,6 @@
 ---
 title: 'Meta Learning for Domain Generalisation'
-description: learn on photos, recognise drawings
+description: learn photos, classify drawings
 categories:
   - projects
 tags:

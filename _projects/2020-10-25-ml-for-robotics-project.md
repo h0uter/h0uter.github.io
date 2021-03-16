@@ -1,6 +1,6 @@
 ---
 title: 'Machine Learning for Robot Gripper'
-description: Jezus grab the knife
+description: Using fiver to avoid boring labeling tasks.
 categories:
   - projects
 tags:
