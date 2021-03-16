@@ -1,4 +1,5 @@
 ---
+layout: page
 title: 'Skelex at the Hannover-Messe'
 description: Exo's for days
 
