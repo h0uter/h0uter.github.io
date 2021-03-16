@@ -6,10 +6,11 @@ tags:
   - Machine Learning
   - Uni Project
   - Python
-image:
-  path: /assets/img/ml_knife_wide.jpg
-  thumbnail: /assets/img/ml_knife.png
-  caption: "wtf"
+img: /assets/img/ml_knife_wide.jpg
+# image:
+#   path: /assets/img/ml_knife_wide.jpg
+#   thumbnail: /assets/img/ml_knife.png
+#   caption: "wtf"
 actions:
   - label: "Published Notebook"
     icon: arrow-right  # references name of svg icon, see full list below

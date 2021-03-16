@@ -9,10 +9,11 @@ tags:
   - Machine Learning
   - Deep Learning
   - Uni Project
-image: 
-  path: /assets/img/MLDG_wide.jpg
-  thumbnail: /assets/img/MLDG.png
-  caption: "test"
+img: /assets/img/MLDG.jpg
+# image: 
+#   path: /assets/img/MLDG_wide.jpg
+#   thumbnail: /assets/img/MLDG.png
+#   caption: "test"
 actions:
   - label: "Our reproduction"
     icon: github  # references name of svg icon, see full list below

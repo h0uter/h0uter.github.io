@@ -6,10 +6,11 @@ tags:
   - Motion Planning
   - Uni Project
   - Python
-image: 
-  path: /assets/img/PDM_preview.gif
-  thumbnail: /assets/img/PDM_preview.gif
-  caption: "test"
+img: /assets/img/PDM_preview.gif
+# image: 
+#   path: /assets/img/PDM_preview.gif
+#   thumbnail: /assets/img/PDM_preview.gif
+#   caption: "test"
 actions:
   - label: "Our paper"
     icon: pdf # references name of svg icon, see full list below
