@@ -47,7 +47,7 @@ I was eager to see the products of the other players in the exoskeleton world in
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/2019-04-02-Hannover-Messe-Skelex/geman_bionx_gif' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/2019-04-02-Hannover-Messe-Skelex/geman_bionx_gif.gif' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
