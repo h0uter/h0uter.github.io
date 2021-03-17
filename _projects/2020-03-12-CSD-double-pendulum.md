@@ -19,7 +19,7 @@ github: https://github.com/h0uter/control-system-design-double-pendulum
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-  <iframe src="https://www.youtube.com/embed/qcokfeDFilA?controls=1&amp;" frameborder="0" allowfullscreen></iframe>
+  <iframe height="460" src="https://www.youtube.com/embed/qcokfeDFilA?controls=1&amp;" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
 <div class="caption">
