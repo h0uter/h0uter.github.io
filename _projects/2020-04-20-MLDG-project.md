@@ -20,7 +20,7 @@ img: /assets/img/MLDG.png
 #   - label: "Original paper"
 #     icon: pdf  # references name of svg icon, see full list below
 #     url: "https://arxiv.org/pdf/1710.03463.pdf"
-
+github: https://github.com/h0uter/MLDG
 ---
 
 # Introduction
