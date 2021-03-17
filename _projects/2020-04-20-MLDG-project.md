@@ -44,7 +44,7 @@ The meta learning algorithm used in the paper is designed to make the model more
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '[/assets/img/MP_grid_vid.gif](https://i.imgur.com/VNZicw9.png)' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ 'https://i.imgur.com/VNZicw9.png' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
@@ -57,9 +57,20 @@ The meta learning algorithm used in the paper is designed to make the model more
 
 As can be seen in line 2, the algorithm starts off by defining the domains S (i.e. Photo, Art painting, Cartoon, Sketch). Hereafter, the initial model parameters (Theta) and hyperparameters (Alpha, Beta, Gamma) are set. Line 4 denotes the start of the iterations. In each iteration, the training domain data are split in a meta-train set and a meta-test set as can be seen in Figure 2. It should be clear that the meta-test set is composed out of training data and not test data. 
 
-![](https://i.imgur.com/shaKYDi.jpg)
 
-*Figure 2: Splitting the trainings domains*
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ 'https://i.imgur.com/shaKYDi.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+<div class="caption">
+    Figure 2: Splitting the trainings domains
+</div>
+
+
+<!-- ![](https://i.imgur.com/shaKYDi.jpg)
+
+*Figure 2: Splitting the trainings domains* -->
 
 Subsequently, the gradients for meta-train are calculated using the loss function (F). With this gradient, the proposed updated parameters can be calculated for the meta train set. Thus far, nothing new occurs except for splitting the domains in sets, when compared to normal backpropagation. However, in line 8 the loss function (G) is calculated for the meta-test set as well. In line 9, the updated parameters (Theta) are calculated based on the meta-train set loss function (F) and the meta-test set loss function (G) times a constant gamma. One can intuitively interpret this as the usual parameter calculation based on the train set gradients and loss function (F). However, these parameters are corrected by the loss function of the meta-test set (G). Therefore, the model will not overfit on a set of domains. 
 
@@ -90,9 +101,19 @@ For this experiment, the PACS multi-domain recognition benchmark was used. This 
 - Sketch
 
 
-![](https://i.imgur.com/XOmolUK.png)
 
-*Figure 3: PACS (Domains S)*
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ 'https://i.imgur.com/XOmolUK.png' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+<div class="caption">
+    Figure 3: PACS (Domains S)
+</div>
+
+<!-- ![](https://i.imgur.com/XOmolUK.png)
+
+*Figure 3: PACS (Domains S)* -->
 
 The proposed MLDG algorithm is compared against 4 baseline models. These are shown below.
 
@@ -105,7 +126,17 @@ The proposed MLDG algorithm is compared against 4 baseline models. These are sho
 
 The results, which are to be reproduced, are shown in table 1. In this table, the accuracy of the considered baselines on the four different domains are shown as well as the results for the proposed MLDG algorithm. The goal of this reproducability project is to reproduce the accuracy of the proposed MLDG algorithm on the different domains (right column of table 1).
 
-![](https://i.imgur.com/80yZ6ih.png)
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ 'https://i.imgur.com/80yZ6ih.png' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+<!-- <div class="caption">
+    Figure 3: PACS (Domains S)
+</div> -->
+
+<!-- ![](https://i.imgur.com/80yZ6ih.png) -->
 
 
 # Reproduction
@@ -122,9 +153,19 @@ There are 4 main files
 3. `model.py`
 4. `MLP.py`
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ 'https://i.imgur.com/N82CWi8.jpg' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+<div class="caption">
+    Figure 4: Code Dependencies
+</div>
+
+<!-- 
 ![](https://i.imgur.com/N82CWi8.jpg)
 
-*Figure 4: Code Dependencies*
+*Figure 4: Code Dependencies* -->
 
 Lets start at the end and then walk our way backwards. The dependencies of the python files are as shown in figure 4. 
 
