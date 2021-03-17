@@ -34,7 +34,7 @@ github: https://github.com/h0uter/PDM-project
 </div>
 
 
-In this report we present a comparison between RRT, RRT* and Informed-RRT* path planners in $R^3$ for a general quad-rotor. We compare their runtime performance and optimal path cost in two unique environments. We introduce kinodynamic constraints to prevent collisions and evaluate their impact on runtime performance. 
+In this report we present a comparison between RRT, RRT* and Informed-RRT* path planners in $$R^3$$ for a general quad-rotor. We compare their runtime performance and optimal path cost in two unique environments. We introduce kinodynamic constraints to prevent collisions and evaluate their impact on runtime performance. 
 
 
 [Check out the project on GitHub!](https://github.com/h0uter/PDM-project)
