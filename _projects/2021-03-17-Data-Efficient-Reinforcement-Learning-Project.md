@@ -24,4 +24,9 @@ importance: 1
     The pendulum simulation in Mujuco
 </div>
 
-Currently working on reproducting the PILCO algorithm for reinforcement learning and making a robustness analysis.
+Currently working on reproducting the [PILCO algorithm](https://www.doc.ic.ac.uk/~mpd37/publications/pami_final_w_appendix.pdf  for reinforcement learning and doing an ablation analysis.
+
+PILCO used gausian processes for function approximation. One of the main advantages of PILCO is that is promotes data efficient reinforcement learning. 
+This is achieved through balancing exploration and exploitation. What this means is that it is able to regulate between generating more data far from its current model (exploration) and generating more data nearby its current model (exploitation).
+This is regulated based on how well the target state is captured in the model.
+<!-- When the model does not capture the target area of the state space, exploration is prefered. Conversely when the model does capture the target state, generating more data around the target state is prefered. -->
