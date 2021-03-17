@@ -42,9 +42,18 @@ Bob [[Github](https://github.com/Bobr4y)] | Wouter [[Github](https://github.com/
 
 The meta learning algorithm used in the paper is designed to make the model more robust for domain shifts. Therefore, Domain Generalization methods are used. Hence, the algorithm is called Meta-Learning Domain Generalization. The high-level pseudocode of the algorithm can be found in Figure 1
 
-![](https://i.imgur.com/VNZicw9.png)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '[/assets/img/MP_grid_vid.gif](https://i.imgur.com/VNZicw9.png)' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+<div class="caption">
+    Figure 1: Pseudocode Algorithm MLDG
+</div>
 
-*Figure 1: Pseudocode Algorithm MLDG*
+<!-- ![](https://i.imgur.com/VNZicw9.png)
+
+*Figure 1: Pseudocode Algorithm MLDG* -->
 
 As can be seen in line 2, the algorithm starts off by defining the domains S (i.e. Photo, Art painting, Cartoon, Sketch). Hereafter, the initial model parameters (Theta) and hyperparameters (Alpha, Beta, Gamma) are set. Line 4 denotes the start of the iterations. In each iteration, the training domain data are split in a meta-train set and a meta-test set as can be seen in Figure 2. It should be clear that the meta-test set is composed out of training data and not test data. 
 
