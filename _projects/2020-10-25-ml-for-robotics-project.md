@@ -13,17 +13,22 @@ img: /assets/img/ml_knife.png
 #   path: /assets/img/ml_knife_wide.jpg
 #   thumbnail: /assets/img/ml_knife.png
 #   caption: "wtf"
-actions:
-  - label: "Published Notebook"
-    icon: arrow-right  # references name of svg icon, see full list below
-    url: "https://deepnote.com/publish/452790e4-76c0-49f0-8fb0-80760653c8f0"
+# actions:
+#   - label: "Published Notebook"
+#     icon: arrow-right  # references name of svg icon, see full list below
+#     url: "https://deepnote.com/publish/452790e4-76c0-49f0-8fb0-80760653c8f0"
 ---
+
+You can execute our code yourself on [Deepnote](https://deepnote.com/project/452790e4-76c0-49f0-8fb0-80760653c8f0)
+
 
 A small robot gripper has to detect cutlery and determine a suitable grip pose. To this end we built a complete ML pipeline start to end.
 
+We motivated our design choices in the context of a satelite system, since I partnered with someone from the MSc. Space Engineering for this project ;)
+
 The general ML cookbook looks something like this:
 
-1. **Overview**
+<!-- 1. **Overview**
   - make a plan
 2. **get the data**
 	- representiveness
@@ -53,7 +58,6 @@ The general ML cookbook looks something like this:
 	-  ensure results are reproducible
 8. **Launch, monitor and maintain your system**
 
-So we went though the pipeline for the challenge at hand and our results can be seen in the published notebook.
+So we went though the pipeline for the challenge at hand and our results can be seen in the published notebook. -->
 
 
-Additionaly, you can execute our code yourself on [Deepnote](https://deepnote.com/project/452790e4-76c0-49f0-8fb0-80760653c8f0)
