@@ -24,5 +24,8 @@ Welcome to my WIP portfolio site!
 I hold a bachelor's degree in Mechanical Engineering from Delft University of Technology and am currently finishing my master's degree in Cognitive Robotics.
 
 My general academic interests relate to the learning, reasoning and strategizing aspects of artificial agents. 
-I also very interested in bionics, especially in taking inspiration from neuroscientific advances in understanding our brain as a Bayesian Inference machine. And then using that understanding to make [better robotic prosthetics](https://youtu.be/CDsNZJTWw0w).
+
+I am also very interested in bionics, currently especially in taking inspiration from neuroscientific advances in understanding our brain as a Bayesian Inference machine. I believe that inspiration from nature is essential for building better robots.
+
+A strong source of motivation for me is my ambition to contribute to next-gen [robotic prosthetics development](https://youtu.be/CDsNZJTWw0w) at some point during my carreer.
 
