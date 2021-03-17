@@ -43,7 +43,7 @@ I was eager to see the products of the other players in the exoskeleton world in
 <!-- 
 ![noonee.jpg](/assets/2019-04-02-Hannover-Messe-Skelex/noonee-min.jpg)
 
-![paexo.jpg](/assets/2019-04-02-Hannover-Messe-Skelex/paexo.jpg) --> -->
+![paexo.jpg](/assets/2019-04-02-Hannover-Messe-Skelex/paexo.jpg) -->
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
