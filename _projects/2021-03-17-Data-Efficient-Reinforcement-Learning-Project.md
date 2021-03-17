@@ -1,4 +1,5 @@
 ---
+layout: page
 title: 'WIP: PILCO reproduction'
 description: Data Efficient Reinforcement Learning
 # categories:

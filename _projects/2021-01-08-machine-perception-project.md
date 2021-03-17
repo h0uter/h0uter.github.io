@@ -1,4 +1,5 @@
 ---
+layout: page
 title: '3D Sensor Data Fusion'
 # categories:
 #   - projects
