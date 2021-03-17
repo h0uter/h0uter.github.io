@@ -321,16 +321,35 @@ It can be argued that these reproduced accuracies improve when more independent 
 
 Apart from reproducing the results in table 1, the meta train loss and meta validation loss were investigated as a function of iteration in order to get a better understanding of the MLDG algorithm. 
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ 'https://i.imgur.com/Xa9S5Wx.png' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+<div class="caption">
+    Figure 5: Meta Losses Training on Photo Domain
+</div>
+
+<!-- 
 ![](https://i.imgur.com/Xa9S5Wx.png)
 
-*Figure 5: Meta Losses Training on Photo Domain*
+*Figure 5: Meta Losses Training on Photo Domain* -->
 
 From figure 5, it seems as if the plot might have benefitted from a more decaying step size to prevent large fluctuations. Similarly, we could speculate that the validation set used here is unrepresentative [Machine learning mastery, Apr 2020]. This makes sense, as it is not composed of all domains. In this case it indicates that the validation dataset may be easier for the model to predict than the training dataset. This can be seen from the lower average losses for the validation set compared to the training set. The domain in the validation set is therefore better predictable than the ones in the training set. This is of course logical due to the model not performing completely equally for all domains, which can be seen in previous tables. Also, the model doesn't seem to be overfit and no early-stop has to be performed. The difference between the two lines denotes the generalization error.
 
 
-![](https://i.imgur.com/Wlvdgdr.png)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ 'https://i.imgur.com/Wlvdgdr.png' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+<div class="caption">
+    Figure 6: Meta Losses Training on Sketch Domain
+</div>
 
-*Figure 6: Meta Losses Training on Sketch Domain*
+<!-- ![](https://i.imgur.com/Wlvdgdr.png)
+
+*Figure 6: Meta Losses Training on Sketch Domain* -->
 
 From figure 6 can be seen that after iteration 120 little improvement is made. To compare, in Figure: Photo Domain it seems as if after iteration 250 the model doesn't learn a lot. Also, the generalization is very small in the sketch domain plot. It seems like a good fit model. However as could be seen from table 3, the accuracy on this domain is rather low. The validation losses are small, indicating that model is complex enough for the validation set. The training losses are also small and stable, indicating low variance. It might be a possibility that the model is overfitted on the training domains (meta-training set + meta-test/ validation set), but that this does not generalize well to the sketch domain.
 
