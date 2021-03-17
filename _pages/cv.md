@@ -1,8 +1,7 @@
 ---
-layout: cv
-permalink: /cv/
-title: cv
+# layout: page
+# title: projects
+permalink: /assets/pdf/CV 2021 - Wouter Meijer.pdf
+# description: A small collection of my projects.
 nav: true
-nav_order: 4
-cv_pdf: example_pdf.pdf
 ---
