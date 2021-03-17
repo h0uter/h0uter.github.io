@@ -1,4 +1,5 @@
 ---
+layout: page
 title: 'Meta Learning for Domain Generalisation'
 description: learn photos, classify drawings
 # categories:
@@ -7,18 +8,18 @@ description: learn photos, classify drawings
 #   - Machine Learning
 #   - Deep Learning
 #   - Uni Project
-# img: /assets/img/MLDG.png
+img: /assets/img/MLDG.png
 # image: 
 #   path: /assets/img/MLDG_wide.jpg
 #   thumbnail: /assets/img/MLDG.png
 #   caption: "test"
-actions:
-  - label: "Our reproduction"
-    icon: github  # references name of svg icon, see full list below
-    url: "https://github.com/h0uter/MLDG"
-  - label: "Original paper"
-    icon: pdf  # references name of svg icon, see full list below
-    url: "https://arxiv.org/pdf/1710.03463.pdf"
+# actions:
+#   - label: "Our reproduction"
+#     icon: github  # references name of svg icon, see full list below
+#     url: "https://github.com/h0uter/MLDG"
+#   - label: "Original paper"
+#     icon: pdf  # references name of svg icon, see full list below
+#     url: "https://arxiv.org/pdf/1710.03463.pdf"
 
 ---
 

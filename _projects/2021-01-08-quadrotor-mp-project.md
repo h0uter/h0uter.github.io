@@ -1,4 +1,5 @@
 ---
+layout: page
 title: 'Quadrotor Motion Planning'
 # categories:
 #   - projects
