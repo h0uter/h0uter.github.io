@@ -24,7 +24,9 @@ Welcome to my WIP portfolio site!
 
 I hold a bachelor's degree in Mechanical Engineering from Delft University of Technology and am currently finishing my master's degree in Cognitive Robotics.
 
-My general academic interests relate to the learning, reasoning and strategizing aspects of artificial agents. 
+During my Bachelor I worked for [Skelex](https://www.skelex.com/) and I am gratefull to have visited many [industrial tech events](https://h0uter.github.io/projects/2019-04-02-Hannover-Messe-Skelex/) to represent them and demonstrate their passive exo-skeleton. I really enjoyed investigating the usecases of potential customers. Often times the exo-skeletons would be used for physcially demanding jobs for which 'the robot' was not good enough yet.
+
+My general academic interests relate to the [learning](https://h0uter.github.io/projects/2020-04-20-MLDG-project/), [reasoning](https://h0uter.github.io/projects/2021-03-16-KRR/) and [planning](https://h0uter.github.io/projects/2021-01-08-quadrotor-mp-project/) aspects of artificial agents. This seems to be the core challenge to bring robotics 'into the wild'.
 
 I am also very interested in bionics, currently especially in taking inspiration from neuroscientific advances in understanding our brain as a Bayesian Inference machine. I believe that inspiration from nature is essential for building better robots.
 
