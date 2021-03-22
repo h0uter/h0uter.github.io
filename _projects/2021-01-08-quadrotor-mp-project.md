@@ -21,6 +21,9 @@ img: /assets/img/PDM_preview.gif
 #     url: "https://github.com/h0uter/PDM-project"
 
 github: https://github.com/h0uter/PDM-project
+
+importance: 2
+
 ---
 
 <!-- ![wow](/assets/img/PDM_preview.gif) -->

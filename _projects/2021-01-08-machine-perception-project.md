@@ -13,6 +13,8 @@ img: /assets/img/MP_grid_vid.gif
 #   path: /assets/img/MP_grid_vid.gif
 #   thumbnail: /assets/img/MP_grid_vid.gif
 #   caption: "test"
+importance: 2
+
 ---
 
 

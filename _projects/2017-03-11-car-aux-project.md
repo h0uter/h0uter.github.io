@@ -13,6 +13,7 @@ img: /assets/2017-03-11-car-aux-project/car-aux-pcb_thumb.jpg
 #   - label: "Download the car radio manual"
 #     icon: pdf # references name of svg icon, see full list below
 #     url: "/assets/pioneer_keh-2700_2730r_SM.pdf"
+importance: 4
 ---
 
 
