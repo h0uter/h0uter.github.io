@@ -10,7 +10,7 @@ description: Data Efficient Reinforcement Learning
 #   - Python
 #   - Gaussian Processes
 img: /assets/2021-03-17-Data-Efficient-Reinforcement-Learning-Project/PILCO-linux.jpg
-importance: 1
+importance: 10
 
 ---
  
