@@ -16,6 +16,8 @@ img: /assets/2019-04-02-Hannover-Messe-Skelex/Wouter_explaining_Skelex_360.jpg
 #   - label: "Visit Skelex"
 #     icon: arrow-right  # references name of svg icon, see full list below
 #     url: "https://www.skelex.com/"
+importance: 4
+
 ---
 
 <div class="row">

@@ -16,7 +16,10 @@ description: LQR is just fancy pole placement
 #     icon: github  # references name of svg icon, see full list below
 #     url: "https://github.com/h0uter/control-system-design-double-pendulum"
 github: https://github.com/h0uter/control-system-design-double-pendulum
+importance: 2
+
 ---
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
   <iframe width="640" height="360" src="https://www.youtube.com/embed/qcokfeDFilA?controls=1&amp;" frameborder="0" allowfullscreen></iframe>

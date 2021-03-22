@@ -17,6 +17,8 @@ img: /assets/img/ml_knife.png
 #   - label: "Published Notebook"
 #     icon: arrow-right  # references name of svg icon, see full list below
 #     url: "https://deepnote.com/publish/452790e4-76c0-49f0-8fb0-80760653c8f0"
+importance: 2
+
 ---
 
 You can execute our code yourself on [Deepnote](https://deepnote.com/project/452790e4-76c0-49f0-8fb0-80760653c8f0)
