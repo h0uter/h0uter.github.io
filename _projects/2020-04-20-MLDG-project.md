@@ -197,7 +197,8 @@ Both classes are defined in `model.py`.
 The MLDG model defines a new train method and inherits all other methods and properties from the baseline (MLP) model.
 
 We will now discuss the interesting parts of the MLDG train method. We first start by calculating the meta-training loss.
-```
+
+```python
 images_train, labels_train = self.batImageGenTrains[index].get_images_labels_batch()
 
 inputs_train, labels_train = torch.from_numpy(
@@ -209,9 +210,10 @@ inputs_train, labels_train = Variable(inputs_train, requires_grad=False).cuda(),
     Variable(labels_train, requires_grad=False).long().cuda()
 
 ```
+
 As can be seen in the code above, the numpy data structures are converted to Torch compatible data structures and subsequently converted to CUDA variables. 
 
-```
+```python
 # forward with the adapted parameters
 outputs_train, _ = self.network(x=inputs_train)
 
@@ -223,7 +225,7 @@ Then a regular forward pass is executed and the loss is calculated.
 
 Next, the meta-validation loss is calculated. This can be seen in the code below.
 
-```
+```python
 image_val, labels_val = batImageMetaVal.get_images_labels_batch()
             inputs_val, labels_val = torch.from_numpy(
                 np.array(image_val, dtype=np.float32)), torch.from_numpy(
