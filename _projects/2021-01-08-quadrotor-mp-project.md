@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 'Quadrotor Motion Planning'
+description: Expanding upon RRT* with a line-of-sight check.
 # categories:
 #   - projects
 # tags:

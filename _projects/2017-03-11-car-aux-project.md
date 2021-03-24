@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 'Upgrading Car Radio with AUX'
-description: Spotify take the wheel
+title: 'Upgrading Car Radio'
+description: "Spotify take the wheel!" with a custom 3.5mm jack.
 
 # categories:
 #   - projects

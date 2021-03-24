@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 'Meta Learning for Domain Generalisation'
-description: learn photos, classify drawings
+title: 'MLDG reproduction'
+description: Meta Learning for Domain Generalisation enables us to train on photos and then classify drawings.
 # categories:
 #   - projects
 # tags:

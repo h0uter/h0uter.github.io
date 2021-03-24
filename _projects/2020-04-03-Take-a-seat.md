@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Take a Seat
-description: office sharing for businesses
+description: Office sharing to connect small and large businesses.
 # categories:
 #   - projects
 # tags:

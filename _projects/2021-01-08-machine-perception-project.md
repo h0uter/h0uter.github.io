@@ -1,6 +1,7 @@
 ---
 layout: page
 title: '3D Sensor Data Fusion'
+description: Combining LiDAR and stereo camera pointclouds.
 # categories:
 #   - projects
 # tags:
