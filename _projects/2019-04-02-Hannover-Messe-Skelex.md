@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Skelex at the Hannover-Messe'
-description: Exo's for days
+description: Business development for a world wide audience.
 
 # categories:
 #   # - projects

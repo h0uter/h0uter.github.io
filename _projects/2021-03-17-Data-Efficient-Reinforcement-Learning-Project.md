@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 'WIP: PILCO reproduction'
-description: Data Efficient Reinforcement Learning
+title: 'WIP: PILCO Reproduction'
+description: Data Efficient Reinforcement Learning with gaussian processes.
 # categories:
 #   - projects
 # tags:
