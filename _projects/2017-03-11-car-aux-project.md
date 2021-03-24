@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Upgrading Car Radio'
-description: "Spotify take the wheel!" with a custom 3.5mm jack.
+description: " \"Spotify take the wheel!\" with a custom 3.5mm jack."
 
 # categories:
 #   - projects
