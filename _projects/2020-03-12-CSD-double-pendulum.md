@@ -1,7 +1,9 @@
 ---
 layout: page
 title: 'Classic Pendulum'
-description: Controller Design for Double Pendulum.
+description: Various controller designs for Double Pendulum.
+img: /assets/2020-03-12-CSD-double-pendulum/dcsc_double_pendulum.jpg
+
 # categories:
 #   - projects
 # tags:
