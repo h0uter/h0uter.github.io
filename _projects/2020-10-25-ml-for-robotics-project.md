@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Cutlery Classifier'
-description: end-to-end ML pipeline for Robot Gripper.
+description: End-to-end ML pipeline for robot gripper.
 # description: Using fiver to avoid boring labeling tasks.
 # categories:
 #   - projects
