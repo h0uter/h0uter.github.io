@@ -1,7 +1,7 @@
 ---
 layout: page
 title: '3D Sensor Data Fusion'
-description: Combining LiDAR and stereo camera pointclouds.
+description: Combining LiDAR and stereo camera pointclouds to build an occupancy grid for navigating an autonomous vehicle.
 # categories:
 #   - projects
 # tags:
