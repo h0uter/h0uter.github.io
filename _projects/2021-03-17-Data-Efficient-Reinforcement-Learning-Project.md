@@ -1,6 +1,6 @@
 ---
 layout: page
-title: '👷‍♂️🏗: PILCO Reproduction'
+title: '👷‍♂️ PILCO Reproduction 👷‍♂️'
 description: Data Efficient Reinforcement Learning with gaussian processes.
 # categories:
 #   - projects
