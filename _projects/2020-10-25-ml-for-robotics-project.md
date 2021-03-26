@@ -27,7 +27,9 @@ You can execute our code yourself on [Deepnote](https://deepnote.com/project/452
 
 A small robot gripper has to detect cutlery and determine a suitable grip pose. To this end we built a complete ML pipeline start to end.
 
-Despite the cutlery requirement we motivated our design choices in the context of a satelite system, no surprise since I partnered with Wesley from the MSc. Space Engineering for this project.
+We compared the performance of classical ML methods with newer DL methods.
+
+<!-- Despite the cutlery requirement we motivated our design choices in the context of a satelite system, no surprise since I partnered with Wesley from the MSc. Space Engineering for this project. -->
 
 <!-- The general ML cookbook looks something like this:
 
