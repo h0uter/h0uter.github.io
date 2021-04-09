@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Wouter J. Meijer | blank</title>
+<title>Wouter J. Meijer | Upgrading Car Radio</title>
 <meta name="description" content="hallo test 123 4 5
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/2017-03-11-car-aux-project/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -151,56 +151,63 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academicss</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Upgrading Car Radio</h1>
+    <p class="post-description"> "Spotify take the wheel!" with a custom 3.5mm jack.</p>
+  </header>
 
+  <article>
+    <p>Me and my brother share our grandmas old car, it’s a beautiful Renault Mégane 2.0 from 1998. However we wanted to listen to our own music, unfortunately the car only supported radio or cassette. So a new projects was conceived.</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/2017-03-11-car-aux-project/car-aux-wires.jpg" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    The radio removed from its enclosure to find the model number.
+</div>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-  </ul>
+<!-- ![](/assets/images/car-aux-wires.jpg) -->
+<p>I removed the car radio from its socket to inspect the model type. A search on google bought me to the manual, luckily back in the day companies still provide in-depth electronic schematics for their products.</p>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/2017-03-11-car-aux-project/car-aux-diagram-min.png" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    The diagram of the PCB including the cassete amplifier.
+</div>
+<!-- ![](/assets/images/car-aux-diagram-min.png) -->
+<p>Inspecting the schematics allowed be to identify the cassette amplifier.</p>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/2017-03-11-car-aux-project/car-aux-pcb.jpg" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    The red and blue wires are the L and R channel soldered into the cassete amplifier. The black wire is the grounding.
+</div>
 
+<!-- ![](/assets/images/car-aux-pcb.jpg) -->
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/2017-03-11-car-aux-project/car-aux-jack.jpeg" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    The resulting 3.5mm jack neatly inserted in the corner of the radio front.
+</div>
+<!-- ![](/assets/images/car-aux-jack.jpeg) -->
+<p>So I soldered in an 3.5mm female port parallel to the cassette input.
+This ensured the 3.5mm output from my phone would be properly amplified before it’s sent to car the speakers.</p>
+
+<h2 id="update-2021">Update 2021</h2>
+<p>The custom AUX port is still going strong and has allowed me and my brother to listen to many hours of music and podcasts.</p>
+
+  </article>
 
 </div>
 
