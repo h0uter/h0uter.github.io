@@ -17,7 +17,7 @@ importance: 4
 ---
 
 
-Me and my brother share our grandmas old car, it's a beautiful Renault Mégane 2.0 from 1998. However we wanted to listen to our own music, unfortunately the car only supported radio or cassette. So a new projects was conceived.
+My brother and I share our grandmas old car, it's a beautiful Renault Mégane 2.0 from 1998. However, we wanted to listen to our own music, unfortunately the car only supported radio or cassette. So a new project was conceived.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/2017-03-11-car-aux-project/car-aux-wires.jpg' | relative_url }}" alt="" title="example image"/>
