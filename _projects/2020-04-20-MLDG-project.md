@@ -267,7 +267,7 @@ Google Colab was used to deploy and run the repository. The entrypoint to the or
 * **Loop unrolling**<br>
 The first challenge we encountered was that google Colab stopped running too early to complete multiple runs back-to-back. Each run consist of 4 iterations in which a single domain is held out from the training set. To solve this problem, the outer loop of the entry scripts is unrolled, enabling the runs to be executed independently. 
 * **Hyperparameter investigation**<br>
-Because the code is available for a given paper does not necessarily mean that it is independently reproducible. To get a better feel for the independent reproducability, it is investigated whether all hyperparameters used for this experiment are specified in the paper. This can be seen in below in table 2.
+Because the code is available for a given paper does not necessarily mean that it is independently reproducible. To get a better feel for the independent reproducibility, it is investigated whether all hyperparameters used for this experiment are specified in the paper. This can be seen in below in table 2.
 
 
   | Hyperparameter | Value | Specified in paper |
@@ -356,11 +356,11 @@ From figure 5, it seems as if the plot might have benefitted from a more decayin
 
 *Figure 6: Meta Losses Training on Sketch Domain* -->
 
-From figure 6 can be seen that after iteration 120 little improvement is made. To compare, in Figure: Photo Domain it seems as if after iteration 250 the model doesn't learn a lot. Also, the generalization is very small in the sketch domain plot. It seems like a good fit model. However as could be seen from table 3, the accuracy on this domain is rather low. The validation losses are small, indicating that model is complex enough for the validation set. The training losses are also small and stable, indicating low variance. It might be a possibility that the model is overfitted on the training domains (meta-training set + meta-test/ validation set), but that this does not generalize well to the sketch domain.
+From figure 6 can be seen that after iteration 120 little improvement is made. To compare, in Figure: Photo Domain it seems as if after iteration 250 the model doesn't learn a lot. Also, the generalisation is very small in the sketch domain plot. It seems like a good fit model. However as could be seen from table 3, the accuracy on this domain is rather low. The validation losses are small, indicating that model is complex enough for the validation set. The training losses are also small and stable, indicating low variance. It might be a possibility that the model is overfitted on the training domains (meta-training set + meta-test/ validation set), but that this does not generalize well to the sketch domain.
 
 
 # Conclusion
-The first thing to notice is that the reproduced baseline model (MLP) is different from the baseline models in table 1. This is not vital for our reproducability project since the baseline results are not part of our reproducability goal (right most column in table 1). However, as the model is different, no clear comparison between the baselines can be made. The MLP baseline can however be used to compare against the reproduced MLDG results.
+The first thing to notice is that the reproduced baseline model (MLP) is different from the baseline models in table 1. This is not vital for our reproducibility project since the baseline results are not part of our reproducibility goal (right most column in table 1). However, as the model is different, no clear comparison between the baselines can be made. The MLP baseline can however be used to compare against the reproduced MLDG results.
 
 By comparing tables 1 and 3, it becomes clear that domains, which were considered easy or difficult to meta learn, remain the same in the reproduction. The sketch domain receives the lowest accuracy scores in both table 1 and 3, while the photo domain receives the highest scores.
 
@@ -377,7 +377,7 @@ There could be multiple reasons why the original results from table 1 were not f
 
 A possible explaination could be that the authors slightly altered/optimized their algorithm while rewriting it to Tensorflow. The available code base is a previous version of the code, which after inspection and testing should behave exactly like the pseudocode algorithm in figure 1. It could be possible that the overall algorithm was altered or optimized in some way when it was rewritten into Tensorflow.
 
-A second possibility could be that the number of runs performed is critical to the accuracy of the original paper. In our reproducability project, only 3 runs were performed because it was found that the accuracy did not vary significantly between runs (see the 95% confidence interval). It could be that the authors ran the experiment a large number of times and averaged the resulting accuracies, but this was not specified in the paper.
+A second possibility could be that the number of runs performed is critical to the accuracy of the original paper. In our reproducibility project, only 3 runs were performed because it was found that the accuracy did not vary significantly between runs (see the 95% confidence interval). It could be that the authors ran the experiment numerous times and averaged the resulting accuracies, but this was not specified in the paper.
 
 Whether or not this is the case could be investigated in future work.
 
@@ -391,7 +391,7 @@ If this produces similar results to the reproduced results in table 3 it could b
 
 - [Li et al. 2017] Li, D.; Yang, Y.; Song, Y.-Z.; and
 Hospedales, T. 2017. Deeper, broader and artier domain
-generalization. In ICCV.
+generalisation. In ICCV.
 - [Machine learning mastery, Apr 2020] https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/
 
 

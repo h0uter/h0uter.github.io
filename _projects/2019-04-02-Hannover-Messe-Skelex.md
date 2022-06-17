@@ -29,7 +29,7 @@ importance: 4
     Me demonstrating the Skelex to the Dutch trade delegation
 </div>
 
-I represented the scale-up [Skelex](https://www.skelex.com/) at the largest industrial tech event in Germany, the Hannover Messe with 6.500 exhibitors and 250.000 visitors. Skelex designs and manufactures passive upperbody exoskeletons. I advised our international audience regarding the possibilities of augmenting their workforce with the Skelex 360.
+I represented the scale-up [Skelex](https://www.skelex.com/) at the largest industrial tech event in Germany, the Hannover Messe with 6.500 exhibitors and 250.000 visitors. Skelex designs and manufactures passive upper body exoskeletons. I advised our international audience regarding the possibilities of augmenting their workforce with the Skelex 360.
 
 
 <!-- ![0.jpg](/assets/images/2019-04-02-Hannover-Messe-Skelex/0.jpg) -->
