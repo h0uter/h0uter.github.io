@@ -17,7 +17,7 @@ img: /assets/2020-03-12-CSD-double-pendulum/dcsc_double_pendulum.jpg
 #   - label: "Github"
 #     icon: github  # references name of svg icon, see full list below
 #     url: "https://github.com/h0uter/control-system-design-double-pendulum"
-github: https://github.com/h0uter/control-system-design-double-pendulum
+# github: https://github.com/h0uter/control-system-design-double-pendulum
 importance: 2
 
 ---
@@ -36,7 +36,7 @@ importance: 2
 
 
 
-A double pendulum is studied, where only the first link can be actuated using a motor. Firstly, the system will be modeled using a white-box approach. After determining the equations of motion and state-space equations, the parameters of the system are estimated using an error-function and least-squares fit on generated data. To stabilize the double pendulum in the unstable equilibrium where both links point upwards, the system is linearized around this point. After linearizing and designing an observer, two controllers are designed to stabilize the system around this point. Since the physical setups are not available due to the Corona virus, all results were analyzed in Simulink.
+A double pendulum is studied, where only the first link can be actuated using a motor. Firstly, the system will be modeled using a white-box approach. After determining the equations of motion and state-space equations, the parameters of the system are estimated using an error-function and least-squares fit on generated data. To stabilize the double pendulum in the unstable equilibrium where both links point upwards, the system is linearized around this point. After linearizing and designing an observer, two controllers are designed to stabilize the system around this point. Since the physical setups are not available due to the Coronavirus, all results were analyzed in Simulink.
 
 
 <!-- <iframe width="560" height="400" src="https://www.youtube.com/embed/qcokfeDFilA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
