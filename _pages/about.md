@@ -21,12 +21,12 @@ Hi👋,
 
 Welcome to my portfolio site!
 
-I hold a bachelor's degree in Mechanical Engineering from Delft University of Technology and am currently finishing my master's degree in Cognitive Robotics.
+I hold a bachelor's degree in Mechanical Engineering from Delft University of Technology and am currently finishing my master's degree in Cognitive Robotics. 
+<!-- Now with my studies I can  -->
+My masters gave me hands-on experience with the [learning](https://h0uter.github.io/projects/2020-04-20-MLDG-project/), [reasoning](https://h0uter.github.io/projects/2021-03-16-KRR/), [mapping](https://h0uter.github.io/projects/2021-01-08-machine-perception-project/) and [planning](https://h0uter.github.io/projects/2021-01-08-quadrotor-mp-project/) aspects of artificial agents. Personally I am academically passionate about the opportunities of [combining mapping and task Planning](https://h0uter.github.io/projects/2022-05-29-thesis/) to bring robotics 'into the wild'.
 
 During my Bachelor I worked for [Skelex](https://www.skelex.com/) and I am grateful to have visited many [industrial tech events](https://h0uter.github.io/projects/2019-04-02-Hannover-Messe-Skelex/) to demonstrate their passive exoskeleton and speak with other companies on their behalf. I really enjoyed investigating the use cases of potential customers. Often times the exoskeletons would be used for physically demanding jobs for which 'the robot' was not good enough yet.
 
-<!-- Now with my studies I can  -->
-My general academic interests relate to the [learning](https://h0uter.github.io/projects/2020-04-20-MLDG-project/), [reasoning](https://h0uter.github.io/projects/2021-03-16-KRR/), [mapping](https://h0uter.github.io/projects/2021-01-08-machine-perception-project/) and [planning](https://h0uter.github.io/projects/2021-01-08-quadrotor-mp-project/) aspects of artificial agents. These seem to be the core challenges to bring robotics 'into the wild'.
 
 <!-- I am also very interested in bionics.  -->
 I also really enjoy looking at nature from an engineering perspective, because it inspires me on what is possible.
