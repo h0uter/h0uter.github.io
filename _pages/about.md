@@ -23,10 +23,13 @@ Welcome to my portfolio site!
 
 I hold a bachelor's degree in Mechanical Engineering from Delft University of Technology and am currently finishing my master's degree in Cognitive Robotics. 
 
-During my Bachelor I worked for [Skelex](https://www.skelex.com/) and I am grateful to have visited many [industrial tech events](https://h0uter.github.io/projects/2019-04-02-Hannover-Messe-Skelex/) to demonstrate their passive exoskeleton and speak with other companies on their behalf. I really enjoyed investigating the use cases of potential customers. Often times the exoskeletons would be used for physically demanding jobs for which 'the robot' was not good enough yet.
-
 <!-- Now with my studies I can  -->
-I have hands-on experience with the [learning](https://h0uter.github.io/projects/2020-04-20-MLDG-project/), [reasoning](https://h0uter.github.io/projects/2021-03-16-KRR/), [mapping](https://h0uter.github.io/projects/2021-01-08-machine-perception-project/) and [planning](https://h0uter.github.io/projects/2021-01-08-quadrotor-mp-project/) aspects of mobile robots. What I am academically passionate about are the opportunities of [combining mapping and task Planning](https://h0uter.github.io/projects/2022-05-29-thesis/) to deploy robots 'into the wild'.
+I am academically passionate about are the opportunities of [combining mapping and task Planning](https://h0uter.github.io/projects/2022-05-29-thesis/) to deploy robots 'into the wild'.
+Additionally, I have hands-on experience with the [learning](https://h0uter.github.io/projects/2020-04-20-MLDG-project/), [reasoning](https://h0uter.github.io/projects/2021-03-16-KRR/), [mapping](https://h0uter.github.io/projects/2021-01-08-machine-perception-project/) and [planning](https://h0uter.github.io/projects/2021-01-08-quadrotor-mp-project/) aspects of mobile robots. 
+<!-- Especially the synergy and robotic devOps is what I plan to learn more about in the future. -->
+
+During my Bachelor I worked for [Skelex](https://www.skelex.com/) and I am grateful to have represented them at many [industrial tech events](https://h0uter.github.io/projects/2019-04-02-Hannover-Messe-Skelex/) where I demonstrated their passive exoskeleton. I really enjoyed investigating the use cases of potential customers. Often times the exoskeletons would be used for physically demanding jobs for which 'the robot' was not good enough yet.
+
 
 <!-- I am also very interested in bionics.  -->
 Additionally, I also really enjoy looking at nature from an engineering perspective, because it inspires me on what is possible.
