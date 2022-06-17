@@ -1,7 +1,7 @@
 ---
 layout: page
 title: '👷‍♂️ PILCO Reproduction'
-description: Data Efficient Reinforcement Learning with gaussian processes.
+description: Data efficient reinforcement learning with gaussian processes.
 # categories:
 #   - projects
 # tags:
