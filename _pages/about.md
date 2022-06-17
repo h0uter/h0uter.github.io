@@ -17,10 +17,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi👋,
-
-Welcome to my portfolio site!
-
 I hold a bachelor's degree in Mechanical Engineering from Delft University of Technology and am currently finishing my master's degree in Cognitive Robotics. 
 
 <!-- Now with my studies I can  -->
