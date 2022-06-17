@@ -18,7 +18,7 @@ img: /assets/2020-03-12-CSD-double-pendulum/dcsc_double_pendulum.jpg
 #     icon: github  # references name of svg icon, see full list below
 #     url: "https://github.com/h0uter/control-system-design-double-pendulum"
 # github: https://github.com/h0uter/control-system-design-double-pendulum
-importance: 2
+importance: 4
 
 ---
 
