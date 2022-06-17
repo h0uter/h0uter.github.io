@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I am nearing the end of my [MSc. thesis](https://h0uter.github.io/projects/2022-05-29-thesis/) and orienting myself on the next challenge!
+Now that I am nearing the end of my [MSc. thesis](https://h0uter.github.io/projects/2022-05-29-thesis/), I am orienting myself on the next challenge!

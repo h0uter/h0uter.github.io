@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I found a cool graduation project at TNO at the Intelligent Autonomous Systems group!
+I found a cool graduation project at the TNO [Intelligent Autonomous Systems group](https://www.tno.nl/en/focus-areas/defence-safety-security/expertise-groups/intelligent-autonomous-systems/)!
