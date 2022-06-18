@@ -22,16 +22,22 @@ importance: 2
 
 ---
 
+
 You can execute our code yourself on [Deepnote](https://deepnote.com/project/452790e4-76c0-49f0-8fb0-80760653c8f0)
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/ml_knife.png' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+<div class="caption">
+    The lines show the distinct detections of the handle and the blade of the knife.
+</div>
 
-A small robot gripper has to detect cutlery and determine a suitable grip pose. To this end we built a complete ML pipeline start to end.
 
-We compared the performance of classical ML methods with newer DL methods.
+A small robot gripper has to detect cutlery and determine a suitable grip pose. To this end a computer vision pipeline was constructed.
 
-<!-- Despite the cutlery requirement we motivated our design choices in the context of a satelite system, no surprise since I partnered with Wesley from the MSc. Space Engineering for this project. -->
-
-<!-- The general ML cookbook looks something like this:
+The general ML cookbook looks something like this:
 
 1. **Overview**
   - make a plan
@@ -39,6 +45,7 @@ We compared the performance of classical ML methods with newer DL methods.
 	- representiveness
 	- need to annotate
 	- use simulation to obtain data (well suited for reinforcement learning)
+	- check possibilities for data augmentation data augmentation
 3. **Inspect Data, gain insights**
 	- GOAL: develop intuition
 	- find outliers
@@ -63,6 +70,8 @@ We compared the performance of classical ML methods with newer DL methods.
 	-  ensure results are reproducible
 8. **Launch, monitor and maintain your system**
 
-So we went though the pipeline for the challenge at hand and our results can be seen in the published notebook. -->
+Additionally, we compared the performance of classical ML methods with newer DL methods and our results can be seen in the published notebook.
 
 
+
+<!-- Despite the cutlery requirement we motivated our design choices in the context of a satelite system, no surprise since I partnered with Wesley from the MSc. Space Engineering for this project. -->
