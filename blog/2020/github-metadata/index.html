@@ -1,25 +1,12 @@
----
-layout: default
-title: blog
-pagination:
-  enabled: true
-  collection: posts
-  permalink: /page/:num/
-  per_page: 5
-  sort_field: date
-  sort_reverse: true
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3  # The number of links after the current page
-nav: false
----
+<!DOCTYPE html>
+<html>
 
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Wouter J. Meijer | blank</title>
+<title>Wouter J. Meijer | a post with github metadata</title>
 <meta name="description" content="Personal Portfolio Site of W. J. Meijer
 ">
 
@@ -29,8 +16,8 @@ nav: false
 " />
 <meta property="og:type" content="object" />
 <meta property="og:title" content="" />
-<meta property="og:url" content="/blog/index.html" />
-<meta property="og:description" content="blank" />
+<meta property="og:url" content="/blog/2020/github-metadata/" />
+<meta property="og:description" content="a post with github metadata" />
 <!-- <meta property="og:image" content="/assets/preview_image_projects.png" /> -->
 <meta property="og:image" content="/assets/preview_image_projects.png" />
 
@@ -51,7 +38,7 @@ nav: false
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2020/github-metadata/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -171,110 +158,136 @@ nav: false
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academicss</h2>
-  </div>
+<div class="post">
 
-  {% if site.display_tags %}
-  <div class="tag-list">
-    <ul class="p-0 m-0">
-      {% for tag in site.display_tags %}
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
-      {% endfor %}
+  <header class="post-header">
+    <h1 class="post-title">a post with github metadata</h1>
+    <p class="post-meta">September 28, 2020</p>
+  </header>
+
+  <article class="post-content">
+    <p>A sample blog page that demonstrates the accessing of github meta data.</p>
+
+<h2 id="what-does-github-metadata-do">What does Github-MetaData do?</h2>
+<ul>
+  <li>Propagates the site.github namespace with repository metadata</li>
+  <li>Setting site variables :
+    <ul>
+      <li>site.title</li>
+      <li>site.description</li>
+      <li>site.url</li>
+      <li>site.baseurl</li>
     </ul>
-  </div>
-  {% endif %}
+  </li>
+  <li>Accessing the metadata - duh.</li>
+  <li>Generating edittable links.</li>
+</ul>
 
-  <ul class="post-list">
-    {% for post in paginator.posts %}
+<h2 id="additional-reading">Additional Reading</h2>
+<ul>
+  <li>If you’re recieving incorrect/missing data, you may need to perform a Github API<a href="https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md"> authentication</a>.</li>
+  <li>Go through this <a href="https://jekyll.github.io/github-metadata/" target="blank">README</a> for more details on the topic.</li>
+  <li><a href="https://github.com/jekyll/github-metadata/blob/master/docs/site.github.md">This page</a> highlights all the feilds you can access with github-metadata.
+<br /></li>
+</ul>
 
-    {% if post.external_source == blank %}
-      {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
-    {% else %}
-      {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-    {% endif %}
-    {% assign year = post.date | date: "%Y" %}
-    {% assign tags = post.tags | join: "" %}
-    {% assign categories = post.categories | join: "" %}
+<h2 id="example-metadata">Example MetaData</h2>
+<ul>
+  <li>Host Name : github.com</li>
+  <li>URL : https://github.com/pages/h0uter/h0uter.github.io</li>
+  <li>BaseURL : /pages/h0uter/h0uter.github.io</li>
+  <li>Archived : false</li>
+  <li>
+    <p>Contributors :</p>
 
-    <li>
-      <h3>
-        {% if post.redirect == blank %}
-          <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        {% else %}
-          {% if post.redirect contains '://' %}
-            <a class="post-title" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>
-            <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-              <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          {% else %}
-            <a class="post-title" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
-          {% endif %}
-        {% endif %}
-      </h3>
-      <p>{{ post.description }}</p>
-      <p class="post-meta">
-        {{ read_time }} min read &nbsp; &middot; &nbsp;
-        {{ post.date | date: '%B %-d, %Y' }}
-        {%- if post.external_source %}
-        &nbsp; &middot; &nbsp; {{ post.external_source }}
-        {%- endif %}
-      </p>
-      <p class="post-tags">
-        <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
-          <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+    <ul>
+      <li>
+        <p>h0uter</p>
+      </li>
+      <li>
+        <p>alshedivat</p>
+      </li>
+      <li>
+        <p>samfearn</p>
+      </li>
+      <li>
+        <p>monkeywithacupcake</p>
+      </li>
+      <li>
+        <p>adunning</p>
+      </li>
+      <li>
+        <p>g-oikonomou</p>
+      </li>
+      <li>
+        <p>junghans</p>
+      </li>
+      <li>
+        <p>akindofyoga</p>
+      </li>
+      <li>
+        <p>ziruizhuang</p>
+      </li>
+      <li>
+        <p>huyen-nguyen</p>
+      </li>
+      <li>
+        <p>mvdoc</p>
+      </li>
+      <li>
+        <p>swabhs</p>
+      </li>
+      <li>
+        <p>AbstractGeek</p>
+      </li>
+      <li>
+        <p>jasongfleischer</p>
+      </li>
+      <li>
+        <p>krrish94</p>
+      </li>
+      <li>
+        <p>LoryPack</p>
+      </li>
+      <li>
+        <p>mpmdean</p>
+      </li>
+      <li>
+        <p>kakodkar</p>
+      </li>
+      <li>
+        <p>sahirbhatnagar</p>
+      </li>
+      <li>
+        <p>shpark</p>
+      </li>
+      <li>
+        <p>tdsimao</p>
+      </li>
+      <li>
+        <p>tresoldi</p>
+      </li>
+      <li>
+        <p>yoonholee</p>
+      </li>
+      <li>
+        <p>zrqiao</p>
+      </li>
+      <li>
+        <p>jkmacc-LANL</p>
+      </li>
+      <li>
+        <p>zt-chen</p>
+      </li>
+    </ul>
+  </li>
+</ul>
 
-          {% if tags != "" %}
-          &nbsp; &middot; &nbsp;
-            {% for tag in post.tags %}
-            <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
-              <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
-              {% endfor %}
-          {% endif %}
-
-          {% if categories != "" %}
-          &nbsp; &middot; &nbsp;
-            {% for category in post.categories %}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-              <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
-              {% endfor %}
-          {% endif %}
-    </p>
-    </li>
-
-    {% endfor %}
-  </ul>
+  </article>
 
   
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
 
 </div>
 

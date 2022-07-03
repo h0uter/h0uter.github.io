@@ -1,25 +1,12 @@
----
-layout: default
-title: blog
-pagination:
-  enabled: true
-  collection: posts
-  permalink: /page/:num/
-  per_page: 5
-  sort_field: date
-  sort_reverse: true
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3  # The number of links after the current page
-nav: false
----
+<!DOCTYPE html>
+<html>
 
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Wouter J. Meijer | blank</title>
+<title>Wouter J. Meijer</title>
 <meta name="description" content="Personal Portfolio Site of W. J. Meijer
 ">
 
@@ -29,8 +16,8 @@ nav: false
 " />
 <meta property="og:type" content="object" />
 <meta property="og:title" content="" />
-<meta property="og:url" content="/blog/index.html" />
-<meta property="og:description" content="blank" />
+<meta property="og:url" content="/" />
+<meta property="og:description" content="about" />
 <!-- <meta property="og:image" content="/assets/preview_image_projects.png" /> -->
 <meta property="og:image" content="/assets/preview_image_projects.png" />
 
@@ -51,7 +38,7 @@ nav: false
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -94,10 +81,6 @@ nav: false
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
     <div class="container">
       
-      <a class="navbar-brand title font-weight-lighter" href="/">
-       <span class="font-weight-bold">Wouter</span> J.  Meijer
-      </a>
-      
       <!-- Navbar Toggle -->
       <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
@@ -108,9 +91,11 @@ nav: false
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/">
               about
+              
+                <span class="sr-only">(current)</span>
               
             </a>
           </li>
@@ -173,108 +158,127 @@ nav: false
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academicss</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">
+     <span class="font-weight-bold">Wouter</span> J. Meijer
+    </h1>
+     <p class="desc">MSc. <a href="https://www.tudelft.nl/3me/over/afdelingen/cognitive-robotics-cor">Cognitive Robotics</a> 
+</p>
+  </header>
 
-  {% if site.display_tags %}
-  <div class="tag-list">
-    <ul class="p-0 m-0">
-      {% for tag in site.display_tags %}
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
+  <article>
+    
+    <div class="profile float-right">
+      
+        <img class="img-fluid z-depth-1 rounded" src="/assets/img/prof_pic.jpg">
+      
+      
+        <div class="address">
+          <p>Delft, South-Holland</p>
 
-  <ul class="post-list">
-    {% for post in paginator.posts %}
+        </div>
+      
+    </div>
+    
 
-    {% if post.external_source == blank %}
-      {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
-    {% else %}
-      {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-    {% endif %}
-    {% assign year = post.date | date: "%Y" %}
-    {% assign tags = post.tags | join: "" %}
-    {% assign categories = post.categories | join: "" %}
+    <div class="clearfix">
+      <p>I hold a bachelor’s degree in Mechanical Engineering from Delft University of Technology and am currently finishing my master’s degree in Cognitive Robotics.</p>
 
-    <li>
-      <h3>
-        {% if post.redirect == blank %}
-          <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        {% else %}
-          {% if post.redirect contains '://' %}
-            <a class="post-title" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>
-            <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-              <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          {% else %}
-            <a class="post-title" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
-          {% endif %}
-        {% endif %}
-      </h3>
-      <p>{{ post.description }}</p>
-      <p class="post-meta">
-        {{ read_time }} min read &nbsp; &middot; &nbsp;
-        {{ post.date | date: '%B %-d, %Y' }}
-        {%- if post.external_source %}
-        &nbsp; &middot; &nbsp; {{ post.external_source }}
-        {%- endif %}
-      </p>
-      <p class="post-tags">
-        <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
-          <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+<!-- Now with my studies I can  -->
+<p>I am academically passionate about the opportunities of <a href="https://h0uter.github.io/projects/2022-05-29-thesis/">combining mapping and task planning</a> and practically interested in ‘robotic DevOps’ in order to deploy robots ‘into the wild’ at scale.
+Additionally, I have hands-on experience with the <a href="https://h0uter.github.io/projects/2020-04-20-MLDG-project/">learning</a>, <a href="https://h0uter.github.io/projects/2021-03-16-KRR/">reasoning</a>, <a href="https://h0uter.github.io/projects/2020-10-25-ml-for-robotics-project/">computer vision</a>, <a href="https://h0uter.github.io/projects/2021-01-08-machine-perception-project/">mapping</a> and <a href="https://h0uter.github.io/projects/2021-01-08-quadrotor-mp-project/">motion planning</a> aspects of mobile robots. 
+<!-- Especially the synergy and robotic devOps is what I plan to learn more about in the future. --></p>
 
-          {% if tags != "" %}
-          &nbsp; &middot; &nbsp;
-            {% for tag in post.tags %}
-            <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
-              <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
-              {% endfor %}
-          {% endif %}
+<p>During my Bachelor I worked for <a href="https://www.skelex.com/">Skelex</a> and I am grateful to have represented them at many <a href="https://h0uter.github.io/projects/2019-04-02-Hannover-Messe-Skelex/">industrial tech events</a> where I demonstrated their passive exoskeleton. I really enjoyed investigating the use cases of potential customers. Often times the exoskeletons would be used for physically demanding jobs for which ‘the robot’ was not good enough yet.</p>
 
-          {% if categories != "" %}
-          &nbsp; &middot; &nbsp;
-            {% for category in post.categories %}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-              <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
-              {% endfor %}
-          {% endif %}
+<!-- I am also very interested in bionics.  -->
+<p>Additionally, I also really enjoy looking at nature from an engineering perspective, because it inspires me on what is possible.</p>
+
+<!-- since I believe that taking inspiration from nature is key to aproach to building better robots. -->
+
+<!-- A strong source of motivation for me is my ambition to contribute to next-gen [robotic prosthetics development](https://youtu.be/CDsNZJTWw0w) at some point during my carreer. -->
+
+
+    </div>
+
+    
+      <div class="news">
+  <!-- <h2>news</h2> -->
+  <h4><br><br>My Projects & Updates</h4>
+  
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      
+      
+        <tr>
+          <th scope="row">Jun 1, 2022</th>
+          <td>
+            
+              Now that I am nearing the end of my <a href="https://h0uter.github.io/projects/2022-05-29-thesis/">MSc. thesis</a>, I am orienting myself on the next challenge!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th scope="row">Jul 1, 2021</th>
+          <td>
+            
+              I found a cool graduation project about robotic Search-and-Rescue missions at the TNO <a href="https://www.tno.nl/en/focus-areas/defence-safety-security/expertise-groups/intelligent-autonomous-systems/">Intelligent Autonomous Systems group</a>!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th scope="row">Jan 15, 2021</th>
+          <td>
+            
+              I am now taking my final MSc. courses which means I am looking for a cool graduation project!
+
+            
+          </td>
+        </tr>
+      
+      </table>
+    </div>
+    <!-- my additions of more projects link  -->
+    <p class="text-center">
+      <a href="https://h0uter.github.io/projects/"> >>>More Projects<<< </a>
     </p>
-    </li>
-
-    {% endfor %}
-  </ul>
 
   
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+</div>
 
+    
 
+    
+
+    
+    <div class="social">
+      <span class="contact-icon text-center">
+  <a href="mailto:%77.%6A.%6D%65%69%6A%65%72@%73%74%75%64%65%6E%74.%74%75%64%65%6C%66%74.%6E%6C"><i class="fas fa-envelope"></i></a>
+  
+  
+  
+  
+  <a href="https://github.com/h0uter" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/wouterjmeijer" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+  
+  
+  
+  
+  
+  
+  
+  
+</span>
+
+      <div class="contact-note">Add me on linkedin if you want to get in touch!
+</div>
+    </div>
+    
+  </article>
 
 </div>
 

@@ -1,25 +1,12 @@
----
-layout: default
-title: blog
-pagination:
-  enabled: true
-  collection: posts
-  permalink: /page/:num/
-  per_page: 5
-  sort_field: date
-  sort_reverse: true
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3  # The number of links after the current page
-nav: false
----
+<!DOCTYPE html>
+<html>
 
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Wouter J. Meijer | blank</title>
+<title>Wouter J. Meijer | Take a Seat</title>
 <meta name="description" content="Personal Portfolio Site of W. J. Meijer
 ">
 
@@ -29,8 +16,8 @@ nav: false
 " />
 <meta property="og:type" content="object" />
 <meta property="og:title" content="" />
-<meta property="og:url" content="/blog/index.html" />
-<meta property="og:description" content="blank" />
+<meta property="og:url" content="/projects/2020-04-03-Take-a-seat/" />
+<meta property="og:description" content="Take a Seat" />
 <!-- <meta property="og:image" content="/assets/preview_image_projects.png" /> -->
 <meta property="og:image" content="/assets/preview_image_projects.png" />
 
@@ -51,7 +38,7 @@ nav: false
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/2020-04-03-Take-a-seat/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -173,108 +160,32 @@ nav: false
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academicss</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Take a Seat</h1>
+    <p class="post-description">Office sharing to connect small and large businesses.</p>
+  </header>
 
-  {% if site.display_tags %}
-  <div class="tag-list">
-    <ul class="p-0 m-0">
-      {% for tag in site.display_tags %}
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
+  <article>
+    <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/2020-04-03-Take-a-seat/take-a-seat.png" alt="" title="example image" />
+    </div>
+</div>
 
-  <ul class="post-list">
-    {% for post in paginator.posts %}
+<p>The website of this project is hosted <a href="https://takeaseat.luppessoftware.nl/">here</a>.</p>
 
-    {% if post.external_source == blank %}
-      {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
-    {% else %}
-      {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-    {% endif %}
-    {% assign year = post.date | date: "%Y" %}
-    {% assign tags = post.tags | join: "" %}
-    {% assign categories = post.categories | join: "" %}
+<h1 id="the-problem">The Problem</h1>
+<p>Intercompany collaboration is becoming increasingly important. However, these collaborations often take place between companies of the same size: in an incubator startups work together and innovation networks mostly include larger companies. The linking of small, innovative startups together with larger companies could yield significant innovative results for both parties.</p>
 
-    <li>
-      <h3>
-        {% if post.redirect == blank %}
-          <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        {% else %}
-          {% if post.redirect contains '://' %}
-            <a class="post-title" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>
-            <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-              <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          {% else %}
-            <a class="post-title" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
-          {% endif %}
-        {% endif %}
-      </h3>
-      <p>{{ post.description }}</p>
-      <p class="post-meta">
-        {{ read_time }} min read &nbsp; &middot; &nbsp;
-        {{ post.date | date: '%B %-d, %Y' }}
-        {%- if post.external_source %}
-        &nbsp; &middot; &nbsp; {{ post.external_source }}
-        {%- endif %}
-      </p>
-      <p class="post-tags">
-        <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
-          <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+<p>Besides this, we have noticed that the highest demand in coworking spaces is not for single seats, but rather for small offices that are rented on a monthly basis. There are long waiting lists for startups and small businesses seeking to join these office spaces. These same users mention that a big aspect in choosing which coworking space to go to, is the type of other people and businesses that work there.</p>
 
-          {% if tags != "" %}
-          &nbsp; &middot; &nbsp;
-            {% for tag in post.tags %}
-            <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
-              <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
-              {% endfor %}
-          {% endif %}
+<h2 id="an-elegant-solution">An Elegant Solution</h2>
+<p>We provide a platform with which companies can rent out their surplus office space to startups requiring a place to work, but lacking the budget to rent or buy their own office. This opens up mutually beneficial collaboration opportunities for both involved parties.</p>
 
-          {% if categories != "" %}
-          &nbsp; &middot; &nbsp;
-            {% for category in post.categories %}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-              <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
-              {% endfor %}
-          {% endif %}
-    </p>
-    </li>
-
-    {% endfor %}
-  </ul>
-
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<p>Eventually this will develop into a platform on which everyone with our app can rent out available working space, either via a coworking concept or as a fixed workplace. Additionally, the platform would serve as matchmaker between both established companies and startups in their search to maximize office space utilization.</p>
 
 
+  </article>
 
 </div>
 
