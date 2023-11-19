@@ -1,6 +1,6 @@
 ---
 layout: page
-title: '👷‍♂️ PILCO Reproduction'
+title: 'PILCO Reproduction'
 description: Data efficient reinforcement learning with gaussian processes.
 img: /assets/2021-03-17-Data-Efficient-Reinforcement-Learning-Project/PILCO-linux.jpg
 category: uni
