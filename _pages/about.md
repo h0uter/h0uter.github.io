@@ -2,16 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: MSc. <a href="https://www.tudelft.nl/3me/over/afdelingen/cognitive-robotics-cor">Cognitive Robotics</a> 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Delft, South-Holland</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -19,8 +17,19 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I hold a bachelor's degree in Mechanical Engineering from Delft University of Technology and am currently finishing my master's degree in Cognitive Robotics. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<!-- Now with my studies I can  -->
+I am academically passionate about the opportunities of [combining mapping and task planning](https://h0uter.github.io/projects/2022-05-29-thesis/) and practically interested in 'robotic DevOps' in order to deploy robots 'into the wild' at scale.
+Additionally, I have hands-on experience with the [learning](https://h0uter.github.io/projects/2020-04-20-MLDG-project/), [reasoning](https://h0uter.github.io/projects/2021-03-16-KRR/), [computer vision](https://h0uter.github.io/projects/2020-10-25-ml-for-robotics-project/), [mapping](https://h0uter.github.io/projects/2021-01-08-machine-perception-project/) and [motion planning](https://h0uter.github.io/projects/2021-01-08-quadrotor-mp-project/) aspects of mobile robots. 
+<!-- Especially the synergy and robotic devOps is what I plan to learn more about in the future. -->
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+During my Bachelor I worked for [Skelex](https://www.skelex.com/) and I am grateful to have represented them at many [industrial tech events](https://h0uter.github.io/projects/2019-04-02-Hannover-Messe-Skelex/) where I demonstrated their passive exoskeleton. I really enjoyed investigating the use cases of potential customers. Often times the exoskeletons would be used for physically demanding jobs for which 'the robot' was not good enough yet.
+
+
+<!-- I am also very interested in bionics.  -->
+Additionally, I also really enjoy looking at nature from an engineering perspective, because it inspires me on what is possible.
+
+<!-- since I believe that taking inspiration from nature is key to aproach to building better robots. -->
+
+<!-- A strong source of motivation for me is my ambition to contribute to next-gen [robotic prosthetics development](https://youtu.be/CDsNZJTWw0w) at some point during my carreer. -->
