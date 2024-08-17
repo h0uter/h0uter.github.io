@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 I hold a bachelor's degree in Mechanical Engineering and a master's degree in Cognitive Robitics from Delft University of Technology. 
 
-I am academically passionate about the opportunities of [combining mapping and task planning](https://h0uter.github.io/projects/2022-05-29-thesis/) and practically interested in 'robotic DevOps' in order to deploy robots 'into the wild' at scale.
+I am academically passionate about the opportunities of [combining mapping and task planning](https://h0uter.github.io/projects/2022-05-29-thesis/) and practically interested in 'robotic DevOps' to enable working on robotic solutions with teams at scale.
 Additionally, I have hands-on experience with the [learning](https://h0uter.github.io/projects/2020-04-20-MLDG-project/), [reasoning](https://h0uter.github.io/projects/2021-03-16-KRR/), [computer vision](https://h0uter.github.io/projects/2020-10-25-ml-for-robotics-project/), [mapping](https://h0uter.github.io/projects/2021-01-08-machine-perception-project/) and [motion planning](https://h0uter.github.io/projects/2021-01-08-quadrotor-mp-project/) aspects of mobile robots. 
 
 
