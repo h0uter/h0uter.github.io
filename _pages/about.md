@@ -23,7 +23,7 @@ I am academically passionate about the opportunities of [combining mapping and t
 Additionally, I have hands-on experience with the [learning](https://h0uter.github.io/projects/2020-04-20-MLDG-project/), [reasoning](https://h0uter.github.io/projects/2021-03-16-KRR/), [computer vision](https://h0uter.github.io/projects/2020-10-25-ml-for-robotics-project/), [mapping](https://h0uter.github.io/projects/2021-01-08-machine-perception-project/) and [motion planning](https://h0uter.github.io/projects/2021-01-08-quadrotor-mp-project/) aspects of mobile robots. 
 
 
-During my Bachelor I worked for [Skelex](https://www.skelex.com/) and I am grateful to have represented them at many [industrial tech events](https://h0uter.github.io/projects/2019-04-02-Hannover-Messe-Skelex/) where I demonstrated their passive exoskeleton. I really enjoyed investigating the use cases of potential customers. Often times the exoskeletons would be used for physically demanding jobs for which 'the robot' was not good enough yet.
+During my Bachelor I worked for [Skelex](https://www.skelex.com/) and I am proud to have represented them at many [industrial tech events](https://h0uter.github.io/projects/2019-04-02-Hannover-Messe-Skelex/) where I demonstrated their passive exoskeleton. I really enjoyed investigating the use cases of potential customers. Often times the exoskeletons would be used for physically demanding jobs for which 'the robot' was not good enough yet.
 
 
 Additionally, I also really enjoy looking at nature from an engineering perspective, because it inspires me on what is possible.
