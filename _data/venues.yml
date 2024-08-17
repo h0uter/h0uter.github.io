@@ -1,9 +1,14 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ICRA":
+  color: "#f29105"
+  # url: https://norlab-ulaval.github.io/workshop_field_robotics_icra2024/
 
-"PhysRev":
-  url: https://journals.aps.org/
+"RSS":
+  color: "#0076df"
+  url: https://www.dynsyslab.org/rss24-workshop-on-semantics-for-robotics/
 
-"Vision":
-  color: "#009f36"
+"NEXT":
+  color: "##b509ac"
+
+"ICPRAI":
+  color: "#00ab37"
+  # url: https://https://brain.korea.ac.kr/icprai2024/.aps.org/
