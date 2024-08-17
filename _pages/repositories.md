@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: repositories
 description: "My work these days is mainly on private Gitlab repositories, but I do have some public repositories on GitHub."
-nav: true
+nav: false
 nav_order: 4
 ---
 

@@ -2,7 +2,7 @@
 
 title: cv
 permalink: '/assets/pdf/CV 2022 - Wouter Meijer.pdf'
-nav: true
+nav: false
 ---
 
 <!-- ---
