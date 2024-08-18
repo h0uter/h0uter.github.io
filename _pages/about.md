@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 I hold a bachelor's degree in Mechanical Engineering and a master's degree in Cognitive Robitics from Delft University of Technology.  I am academically passionate about the opportunities of combining mapping and task planning and practically interested in 'robotic DevOps' to enable working on robotic solutions with teams at scale.
 
 
-Currently, I work as a robotics software engineer at TNO, the Dutch research institute. 
+Currently, I work as a robotics software engineer at [TNO](https://www.tno.nl/en/), the Dutch research institute. 
 Here I focus on scaling experiments with our robotic concepts from our lab into the operational settings of our customers.
 
 
