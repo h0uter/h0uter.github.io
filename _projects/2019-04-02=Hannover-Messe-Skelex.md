@@ -30,7 +30,7 @@ category: work
     Me demonstrating the Skelex to the Dutch trade delegation
 </div>
 
-I represented the scale-up [Skelex](https://www.skelex.com/) at the largest industrial tech event in Germany, the Hannover Messe with 6.500 exhibitors and 250.000 visitors. Skelex designs and manufactures passive upper body exoskeletons. I advised our international audience regarding the possibilities of augmenting their workforce with the Skelex 360.
+I represented [Skelex](https://www.skelex.com/) at the largest industrial tech event in Germany, the Hannover Messe with 6.500 exhibitors and 250.000 visitors. Skelex designs and manufactures passive upper body exoskeletons. I advised our international audience regarding the possibilities of augmenting their workforce with the Skelex 360.
 
 
 <!-- ![0.jpg](/assets/images/2019-04-02-Hannover-Messe-Skelex/0.jpg) -->
@@ -38,6 +38,7 @@ I represented the scale-up [Skelex](https://www.skelex.com/) at the largest indu
 I gained a lot of insight though hearing the perspectives of various operations managers for what they thought were reasonable investments in their workforce. 
 Obviously there are stark contrasts from country to country with regards to how they value their workforce.
 
+## Players in the lower body market
 I was eager to see the products of the other players in the exoskeleton world in person so, during my break I was able to try some of them out and have a chat with their teams.
 
 <!-- ![geman_bionx_gif.gif](/assets/2019-04-02-Hannover-Messe-Skelex/geman_bionx_gif.gif)
@@ -66,11 +67,11 @@ I was eager to see the products of the other players in the exoskeleton world in
     The Noonee 'chairless chair'
 </div>
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/2019-04-02-Hannover-Messe-Skelex/paexo.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
     The ottobock Paexo
-</div>
+</div> -->
