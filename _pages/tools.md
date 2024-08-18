@@ -17,7 +17,7 @@ toc:
 # Teamwork
 ---
 ## Pre-commit
-> Sometimes you forget to run checks on your code, this program will automagically check the specific files you are committing with your preferred tools.
+> Sometimes you forget to run checks on your code, this will automagically check the specific files you are committing with your preferred tools.
 
 ## Ruff
 > The main benefit here is that it is now all included in one, much faster, tool.
@@ -29,7 +29,7 @@ toc:
 > Really great and polished experience for adding Automated documentation generated from Docstrings to your project.
 
 ## Zotero
-> Reference manager that's not owned by evil publisher and the new Ipad app is actually really great!
+> Reference manager that's not owned by evil publisher and the new iPad app is actually really great!
 
 <br>
 
