@@ -2,14 +2,15 @@
 layout: page
 permalink: /tools/
 title: tools
-description: Tools of the trade.
+# description: Tools of the trade.
+description: "Mechanical engineering in Dutch literally translates to toolmakership. Turns out software tools are just as useful and important! Here are some of the tools I enjoy using: "
+
 nav: false
 nav_order: 5
 toc:
   sidebar: left
 ---
 
-Mechanical engineering in Dutch literally translates to toolmakership. Turns out software tools are just as useful and important! Here are some of the tools I enjoy using:
 
 <br>
 
