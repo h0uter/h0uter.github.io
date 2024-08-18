@@ -20,14 +20,15 @@ importance: 4
 category: work
 
 ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/2019-04-02-Hannover-Messe-Skelex/Wouter_explaining_Skelex_360.jpg' | relative_url }}" alt="" title="example image"/>
+<div align="center">
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            <img class="img-fluid rounded z-depth-1" src="{{ '/assets/2019-04-02-Hannover-Messe-Skelex/Wouter_explaining_Skelex_360.jpg' | relative_url }}" alt="" title="example image"/>
+        </div>
     </div>
-</div>
-<div class="caption">
-    Me demonstrating the Skelex to the Dutch trade delegation
+    <div class="caption">
+        Me demonstrating the Skelex to the Dutch trade delegation
+    </div>
 </div>
 
 I represented [Skelex](https://www.skelex.com/) at the largest industrial tech event in Germany, the Hannover Messe with 6.500 exhibitors and 250.000 visitors. Skelex designs and manufactures passive upper body exoskeletons. I advised our international audience regarding the possibilities of augmenting their workforce with the Skelex 360.
@@ -49,22 +50,27 @@ I was eager to see the products of the other players in the exoskeleton world in
 
 ![paexo.jpg](/assets/2019-04-02-Hannover-Messe-Skelex/paexo.jpg) -->
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/2019-04-02-Hannover-Messe-Skelex/geman_bionx_gif.gif' | relative_url }}" alt="" title="example image"/>
+<div align="center">
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            <img class="img-fluid rounded z-depth-1" src="{{ '/assets/2019-04-02-Hannover-Messe-Skelex/geman_bionx_gif.gif' | relative_url }}" alt="" title="example image"/>
+        </div>
     </div>
-</div>
-<div class="caption">
-    The active lower back exoskeleton made by German Bionx
+    <div class="caption">
+        The active lower back exoskeleton made by German Bionx
+    </div>
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/2019-04-02-Hannover-Messe-Skelex/noonee-min.jpg' | relative_url }}" alt="" title="example image"/>
+
+<div align="center">
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            <img class="img-fluid rounded z-depth-1" src="{{ '/assets/2019-04-02-Hannover-Messe-Skelex/noonee-min.jpg' | relative_url }}" alt="" title="example image"/>
+        </div>
     </div>
-</div>
-<div class="caption">
-    The Noonee 'chairless chair'
+    <div class="caption">
+        The Noonee 'chairless chair'
+    </div>
 </div>
 
 <!-- <div class="row">
