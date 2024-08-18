@@ -11,13 +11,15 @@ toc:
 
 Mechanical engineering in Dutch literally translates to toolmakership. Turns out software tools are just as useful and important! Here are some of the tools I enjoy using:
 
-# Teamwork
+<br>
 
+# Teamwork
+---
 ## Pre-commit
 > Sometimes you forget to run checks on your code, this program will automagically check the specific files you are committing with your preferred tools.
 
 ## Ruff
-> The main benefit here is that is now all includes in one, much faster, tool.
+> The main benefit here is that it is now all included in one, much faster, tool.
 
 ## Gitkraken
 > Allows me to better manage multiple projects that are composed of multiple repos each, by providing multi repo project overviews. 
@@ -28,19 +30,25 @@ Mechanical engineering in Dutch literally translates to toolmakership. Turns out
 ## Zotero
 > Reference manager that's not owned by evil publisher and the new Ipad app is actually really great!
 
+<br>
 
 # Personal
-
+---
 ## z4h
-> Natural and really sensible modern extension of the general shell experience
+> Natural and really sensible modern extension of the general shell experience.
 
 ## PDM
 > Respects PEP Standards for `pyproject.toml`, unlike Poetry.
 
-# Technical
+<br>
 
+# Technical
+---
 ## Zenoh
-> Distributed messaging that just works, with innovative new communication patterns.
+> Flexible distributed messaging that just works, with innovative new communication patterns.
 
 ## NiceGUI
-> Because you can start with a frontend in 3 lines of Python code prototyping!
+> Start prototyping your frontend in just 3 lines of Python code, choose from many easy-to-use components including 3D scenes!
+
+## Mprocs
+> While Docker compose is usefull for starting longer running services together, for robotics we also want to conveniently restart specific services for testing.
