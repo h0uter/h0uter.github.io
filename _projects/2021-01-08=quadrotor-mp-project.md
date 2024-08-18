@@ -12,13 +12,15 @@ importance: 2
 ---
 
 <!-- ![wow](/assets/img/PDM_preview.gif) -->
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/PDM_preview.gif' | relative_url }}" alt="" title="example image"/>
+<div align="center">
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/PDM_preview.gif' | relative_url }}" alt="" title="example image"/>
+        </div>
     </div>
-</div>
-<div class="caption">
-    Here you can see the generated path being chased.
+    <div class="caption">
+        Here you can see the generated path being chased.
+    </div>
 </div>
 
 
