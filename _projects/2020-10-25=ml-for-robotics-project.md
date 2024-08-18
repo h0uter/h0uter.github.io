@@ -10,7 +10,7 @@ importance: 2
 
 You can execute our code yourself on [Deepnote](https://deepnote.com/project/452790e4-76c0-49f0-8fb0-80760653c8f0)
 
-<div class="row">
+<div class="row" align="center">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/ml_knife.png' | relative_url }}" alt="" title="example image"/>
     </div>
@@ -19,8 +19,14 @@ You can execute our code yourself on [Deepnote](https://deepnote.com/project/452
     The lines show the distinct detections of the handle and the blade of the knife.
 </div>
 
-
 A small robot gripper has to detect cutlery and determine a suitable grip pose. To this end a computer vision pipeline was constructed.
+We developed an end-to-end machine learning pipeline for a robot gripper tasked with detecting and correctly grasping cutlery. 
+The pipeline begins with data acquisition, where we used custom annotated data.
+We explored various machine learning models, balancing the need for fast inference in robotics with the accuracy of the predictions.
+Our approach included comparing classical machine learning methods with modern deep learning techniques to determine the most effective solution. 
+The final model was fine-tuned and tested extensively, with the results documented in a published notebook, which can be executed directly on Deepnote. 
+The project highlights the practical challenges and considerations in applying machine learning to real-world robotics, including data augmentation, feature engineering, and model optimization.
+
 
 The general ML cookbook looks something like this:
 
@@ -55,4 +61,3 @@ The general ML cookbook looks something like this:
 	-  ensure results are reproducible
 8. **Launch, monitor and maintain your system**
 
-Additionally, we compared the performance of classical ML methods with newer DL methods and our results can be seen in the published notebook.
