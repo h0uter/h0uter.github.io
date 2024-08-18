@@ -3,7 +3,7 @@ layout: page
 permalink: /tools/
 title: tools
 # description: Tools of the trade.
-description: "Mechanical engineering in Dutch literally translates to toolmakership. Turns out software tools are just as useful and important! Here are some of the tools I enjoy using: "
+description: 'Mechanical engineering in Dutch literally translates to "toolmakership". Turns out software tools are just as useful and important! Here are some of the tools I enjoy using: '
 
 nav: false
 nav_order: 5
@@ -38,7 +38,7 @@ toc:
 > Respects PEP Standards for `pyproject.toml`, unlike Poetry. [🔗](https://pdm-project.org/)
 
 ## Ruff
-> The main benefit here is that it is now all included in one, much faster, tool. [🔗](https://docs.astral.sh/ruff/)
+> The main benefit is that it is now all included in one, much faster, tool. [🔗](https://docs.astral.sh/ruff/)
 
 <br>
 
