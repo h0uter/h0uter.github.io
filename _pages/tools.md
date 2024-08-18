@@ -14,42 +14,42 @@ toc:
 
 # Teamwork
 ---
-## Pre-commit [🔗](https://pre-commit.com/)
-> Sometimes you forget to run checks on your code, this will automagically check the specific files you are committing with your preferred tools.
+## Pre-commit
+> Sometimes you forget to run checks on your code, this will automagically check the specific files you are committing with your preferred tools. [🔗](https://pre-commit.com/)
 
-## Gitkraken [🔗](https://www.gitkraken.com/)
-> Allows me to better manage multiple projects that are composed of multiple repos each, by providing multi repo project overviews. 
+## Gitkraken
+> Allows me to better manage multiple projects that are composed of multiple repos each, by providing multi repo project overviews. [🔗](https://www.gitkraken.com/)
 
-## MKDocs Material [🔗](https://squidfunk.github.io/mkdocs-material/)
-> Really great and polished experience for adding Automated documentation generated from Docstrings to your project.
+## MKDocs Material
+> Really great and polished experience for adding Automated documentation generated from Docstrings to your project. [🔗](https://squidfunk.github.io/mkdocs-material/)
 
-## Zotero [🔗](https://www.zotero.org/)
-> Reference manager that's not owned by evil publisher and the new iPad app is actually really great!
+## Zotero
+> Reference manager that's not owned by evil publisher and the new iPad app is actually really great! [🔗](https://www.zotero.org/)
 
 <br>
 
 
 # Personal
 ---
-## z4h [🔗](https://github.com/romkatv/zsh4humans/tree/v5)
-> Natural and really sensible modern extension of the general shell experience.
+## z4h
+> Natural and really sensible modern extension of the general shell experience. [🔗](https://github.com/romkatv/zsh4humans/tree/v5)
 
-## PDM [🔗](https://pdm-project.org/)
-> Respects PEP Standards for `pyproject.toml`, unlike Poetry.
+## PDM
+> Respects PEP Standards for `pyproject.toml`, unlike Poetry. [🔗](https://pdm-project.org/)
 
-## Ruff [🔗](https://docs.astral.sh/ruff/)
-> The main benefit here is that it is now all included in one, much faster, tool.
+## Ruff
+> The main benefit here is that it is now all included in one, much faster, tool. [🔗](https://docs.astral.sh/ruff/)
 
 <br>
 
 
 # Technical
 ---
-## Zenoh [🔗](https://zenoh.io/)
-> Flexible distributed messaging that just works, with innovative new communication patterns.
+## Zenoh
+> Flexible distributed messaging that just works, with innovative new communication patterns. [🔗](https://zenoh.io/)
 
-## NiceGUI [🔗](https://nicegui.io/)
-> Start prototyping your frontend in just 3 lines of Python code, choose from many easy-to-use components including 3D scenes!
+## NiceGUI
+> Start prototyping your frontend in just 3 lines of Python code, choose from many easy-to-use components including 3D scenes! [🔗](https://nicegui.io/)
 
-## Mprocs [🔗](https://github.com/pvolok/mprocs)
-> While Docker compose is usefull for starting longer running services together, for robotics we also want to conveniently restart specific services for testing. 
+## Mprocs
+> While Docker compose is usefull for starting longer running services together, for robotics we also want to conveniently restart specific services for testing. [🔗](https://github.com/pvolok/mprocs)
