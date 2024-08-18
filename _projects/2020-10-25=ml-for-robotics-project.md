@@ -56,7 +56,3 @@ The general ML cookbook looks something like this:
 8. **Launch, monitor and maintain your system**
 
 Additionally, we compared the performance of classical ML methods with newer DL methods and our results can be seen in the published notebook.
-
-
-
-<!-- Despite the cutlery requirement we motivated our design choices in the context of a satelite system, no surprise since I partnered with Wesley from the MSc. Space Engineering for this project. -->

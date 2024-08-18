@@ -2,20 +2,7 @@
 layout: page
 title: 'Skelex at the Hannover-Messe'
 description: Business development for an international audience.
-
-# categories:
-#   # - projects
-# tags:
-#   - Exo-skeleton
 img: /assets/2019-04-02-Hannover-Messe-Skelex/Wouter_explaining_Skelex_360.jpg
-# image: 
-#   path: /assets/img/2019-04-02-Hannover-Messe-Skelex/Wouter_explaining_Skelex_360.jpg
-#   thumbnail: /assets/img/2019-04-02-Hannover-Messe-Skelex/Wouter_explaining_Skelex_360.jpg
-#   caption: "test"
-# actions:
-#   - label: "Visit Skelex"
-#     icon: arrow-right  # references name of svg icon, see full list below
-#     url: "https://www.skelex.com/"
 importance: 4
 category: work
 
@@ -33,8 +20,6 @@ category: work
 
 I represented [Skelex](https://www.skelex.com/) at the largest industrial tech event in Germany, the Hannover Messe with 6.500 exhibitors and 250.000 visitors. Skelex designs and manufactures passive upper body exoskeletons. I advised our international audience regarding the possibilities of augmenting their workforce with the Skelex 360.
 
-
-<!-- ![0.jpg](/assets/images/2019-04-02-Hannover-Messe-Skelex/0.jpg) -->
 
 I gained a lot of insight though hearing the perspectives of various operations managers for what they thought were reasonable investments in their workforce. 
 Obviously there are stark contrasts from country to country with regards to how they value their workforce.
