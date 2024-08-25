@@ -19,7 +19,7 @@ importance: 3
 
 This paper proposes a novel meta learning approach for domain generalisation rather than proposing a specific model suited for DG.
 
-Bob [[Github](https://github.com/Bobr4y)] | Wouter [[Github](https://github.com/h0uter)] | Mats [[Github](https://github.com/1997rijkeboer)]
+Bob [[Github](https://github.com/bobluppes)] | Wouter [[Github](https://github.com/h0uter)] | Mats [[Github](https://github.com/1997rijkeboer)]
 
 # MLDG Algorithm
 
@@ -29,7 +29,7 @@ The meta learning algorithm used in the paper is designed to make the model more
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ 'https://i.imgur.com/VNZicw9.png' | relative_url }}" alt="" title="example image"/>
+        {% include figure.liquid path="https://i.imgur.com/VNZicw9.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -44,7 +44,7 @@ As can be seen in line 2, the algorithm starts off by defining the domains S (i.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ 'https://i.imgur.com/shaKYDi.jpg' | relative_url }}" alt="" title="example image"/>
+        {% include figure.liquid path="https://i.imgur.com/shaKYDi.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -84,7 +84,7 @@ For this experiment, the PACS multi-domain recognition benchmark was used. This 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ 'https://i.imgur.com/XOmolUK.png' | relative_url }}" alt="" title="example image"/>
+        {% include figure.liquid path="https://i.imgur.com/XOmolUK.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -108,7 +108,7 @@ The results, which are to be reproduced, are shown in table 1. In this table, th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ 'https://i.imgur.com/80yZ6ih.png' | relative_url }}" alt="" title="example image"/>
+        {% include figure.liquid path="https://i.imgur.com/80yZ6ih.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <!-- <div class="caption">
@@ -134,7 +134,7 @@ There are 4 main files
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ 'https://i.imgur.com/N82CWi8.jpg' | relative_url }}" alt="" title="example image"/>
+        {% include figure.liquid path="https://i.imgur.com/N82CWi8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -300,7 +300,7 @@ Apart from reproducing the results in table 1, the meta train loss and meta vali
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ 'https://i.imgur.com/Xa9S5Wx.png' | relative_url }}" alt="" title="example image"/>
+        {% include figure.liquid path="https://i.imgur.com/Xa9S5Wx.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -316,7 +316,7 @@ From figure 5, it seems as if the plot might have benefitted from a more decayin
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ 'https://i.imgur.com/Wlvdgdr.png' | relative_url }}" alt="" title="example image"/>
+        {% include figure.liquid path="https://i.imgur.com/Wlvdgdr.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
