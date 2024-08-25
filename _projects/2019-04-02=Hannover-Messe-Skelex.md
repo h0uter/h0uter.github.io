@@ -29,15 +29,6 @@ Obviously there are stark contrasts from country to country with regards to how 
 
 I was eager to see the products of the other players in the exoskeleton world in person so, during my break I was able to try some of them out and have a chat with their teams.
 
-<!-- <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="/assets/2019-04-02-Hannover-Messe-Skelex/paexo.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    The ottobock Paexo
-</div> -->
-
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 mt-3 mt-md-0">
     {% include figure.liquid path="/assets/2019-04-02-Hannover-Messe-Skelex/geman_bionx_gif.gif" title="example image" class="img-fluid rounded z-depth-1" %}
