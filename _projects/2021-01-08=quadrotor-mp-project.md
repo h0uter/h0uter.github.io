@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Quadrotor Motion Planning'
+title: "Quadrotor Motion Planning"
 description: Expanding upon RRT* with a line-of-sight check.
 img: /assets/img/PDM_preview.gif
 category: uni
@@ -8,7 +8,6 @@ category: uni
 github: https://github.com/h0uter/PDM-project
 
 importance: 2
-
 ---
 
 <!-- ![wow](/assets/img/PDM_preview.gif) -->
@@ -23,9 +22,7 @@ importance: 2
     </div>
 </div>
 
-
-In this report we present a comparison between RRT, RRT* and Informed-RRT* path planners in $$R^3$$ for a general quad-rotor. We compare their runtime performance and optimal path cost in two unique environments. We introduce kinodynamic constraints to prevent collisions and evaluate their impact on runtime performance. 
-
+In this report we present a comparison between RRT, RRT* and Informed-RRT* path planners in $$R^3$$ for a general quad-rotor. We compare their runtime performance and optimal path cost in two unique environments. We introduce kinodynamic constraints to prevent collisions and evaluate their impact on runtime performance.
 
 [Check out the project on GitHub!](https://github.com/h0uter/PDM-project)
 
