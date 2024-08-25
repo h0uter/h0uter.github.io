@@ -9,6 +9,8 @@ tabs: true
 
 {% tabs my_srcs %}
 
+
+
 {% tab my_srcs Robotics %}
 
 ## Video
@@ -22,7 +24,13 @@ tabs: true
 - [Robotic Seabass:: ](https://roboticseabass.com/) Great overviews of Task and Motion Planning (TaMP) as well as career advice and reflections on becoming a full-stack robotics engineer.
 - [General Robots:: ](https://generalrobots.substack.com/) Some interesting takes on a career in robotics.
 
+<br>
+
+## Laws, Theories, Principles and Patterns that Roboticists will find useful.
+- **Morovec's Paradox::** What is hard for humans is easy for robots, and what is easy for humans is hard for robots.
 {% endtab %}
+
+
 
 {% tab my_srcs Software Engineering %}
 
