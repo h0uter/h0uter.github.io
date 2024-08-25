@@ -10,8 +10,8 @@ importance: 4
 My brother and I share our grandmother's old car—a beautiful Renault Mégane 2.0 from 1998. It's a classic in its own right, with its nostalgic design and smooth handling, but when it came to entertainment options, we were limited. The car only supported radio or cassette tapes, and while there's something charming about listening to old tapes, we both longed for a way to play our own music on the road. We didn't want to rely on outdated technology or expensive radio transmitters with poor sound quality, so we set out to modernize our driving experience with a simple, yet effective, DIY solution. Thus, a new project was conceived.
 
 <div align="center">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/2017-03-11-car-aux-project/car-aux-wires.jpg' | relative_url }}" alt="" title="example image" style="width:500px;"/>
+    <div class="col-sm mt-3 mt-md-0" style="width:500px">
+        {% include figure.liquid path="/assets/2017-03-11-car-aux-project/car-aux-wires.jpg" class="img-fluid rounded z-depth-1"  zoomable=true %}
     </div>
     <div class="caption">
         The radio removed from its enclosure to find the model number.

@@ -14,7 +14,7 @@ importance: 4
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/2020-04-03-Take-a-seat/take-a-seat.png' | relative_url }}" alt="" title="example image"/>
+        {% include figure.liquid path="/assets/2020-04-03-Take-a-seat/take-a-seat.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 

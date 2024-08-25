@@ -11,7 +11,7 @@ You can execute our code yourself on [Deepnote](https://deepnote.com/project/452
 
 <div class="row" align="center">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/ml_knife.png' | relative_url }}" alt="" title="example image"/>
+        {% include figure.liquid path="/assets/img/ml_knife.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
