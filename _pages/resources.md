@@ -30,6 +30,7 @@ tabs: true
 - [Anthony writes code:: ](https://www.youtube.com/@anthonywritescode) Deep dives on specific topics in a handson format from the author of pre-commit.
 - [Carberra:: ](https://www.youtube.com/@Carberra) Showcasing more recent topics and tools in Python.
 - [Fireship:: ](https://www.youtube.com/@Fireship) Quintessential banter about contemporary software engineering.
+- [You Suck at Programming:: ](https://www.youtube.com/@yousuckatprogramming/videos) If you ever want to take your bash scripting to the next level these bite sized chunks are great.
 
 {% endtab %}
 
