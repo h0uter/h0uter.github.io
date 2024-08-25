@@ -43,7 +43,7 @@ With the manual in hand, I spent some time poring over the schematics, trying to
 
 <div align="center">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/2017-03-11-car-aux-project/car-aux-jack.jpeg' | relative_url }}" alt="" title="example image"/>
+        {% include figure.liquid path="/assets/2017-03-11-car-aux-project/car-aux-jack.jpeg" title="example image" zoomable=true class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="caption">
         The resulting 3.5mm jack neatly inserted in the corner of the radio front.

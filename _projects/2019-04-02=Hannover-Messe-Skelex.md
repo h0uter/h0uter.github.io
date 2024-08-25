@@ -31,7 +31,7 @@ I was eager to see the products of the other players in the exoskeleton world in
 
 <!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/2019-04-02-Hannover-Messe-Skelex/paexo.jpg' | relative_url }}" alt="" title="example image"/>
+        {% include figure.liquid path="/assets/2019-04-02-Hannover-Messe-Skelex/paexo.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
