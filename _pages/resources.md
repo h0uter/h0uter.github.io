@@ -19,6 +19,7 @@ tabs: true
 <br>
 
 ## Reading
+- [Robotic Seabass:: ](https://roboticseabass.com/) Great overviews of Task and Motion Planning (TaMP) as well as career advice and reflections on becoming a full-stack robotics engineer.
 - [General Robots:: ](https://generalrobots.substack.com/) Some interesting takes on a career in robotics.
 
 {% endtab %}
