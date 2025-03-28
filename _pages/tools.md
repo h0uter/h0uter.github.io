@@ -41,9 +41,9 @@ toc:
 
 > Natural and really sensible modern extension of the general shell experience. [🔗](https://github.com/romkatv/zsh4humans/tree/v5)
 
-## PDM
+## uv
 
-> Respects PEP Standards for `pyproject.toml`, unlike Poetry. [🔗](https://pdm-project.org/)
+> Like Cargo for Python. Does respect PEP Standards for `pyproject.toml`, unlike Poetry. Much faster than PDM. [🔗](https://docs.astral.sh/uv/)
 
 ## Ruff
 
